@@ -1,0 +1,738 @@
+{
+  "schemaVersion": "1.0.0",
+  "contentVersion": "1.0.0-F-scenes",
+  "contractCount": 52,
+  "eligibleForAssessment": true,
+  "renderer": "assets/js/scenes.js",
+  "license": "Original SVG illustrations authored for this draft",
+  "contracts": [
+    {
+      "id": "scene-count-0",
+      "targetEntryId": "lex-zahlen-null-numeral",
+      "categoryId": "zahlen",
+      "model": "count_array",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-count-0-p2w",
+        "q-img-scene-count-0-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-count-1",
+      "targetEntryId": "lex-zahlen-eins-numeral",
+      "categoryId": "zahlen",
+      "model": "count_array",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-count-1-p2w",
+        "q-img-scene-count-1-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-count-2",
+      "targetEntryId": "lex-zahlen-zwei-numeral",
+      "categoryId": "zahlen",
+      "model": "count_array",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-count-2-p2w",
+        "q-img-scene-count-2-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-count-3",
+      "targetEntryId": "lex-zahlen-drei-numeral",
+      "categoryId": "zahlen",
+      "model": "count_array",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-count-3-p2w",
+        "q-img-scene-count-3-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-count-4",
+      "targetEntryId": "lex-zahlen-vier-numeral",
+      "categoryId": "zahlen",
+      "model": "count_array",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-count-4-p2w",
+        "q-img-scene-count-4-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-count-5",
+      "targetEntryId": "lex-zahlen-fuenf-numeral",
+      "categoryId": "zahlen",
+      "model": "count_array",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-count-5-p2w",
+        "q-img-scene-count-5-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-count-6",
+      "targetEntryId": "lex-zahlen-sechs-numeral",
+      "categoryId": "zahlen",
+      "model": "count_array",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-count-6-p2w",
+        "q-img-scene-count-6-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-count-7",
+      "targetEntryId": "lex-zahlen-sieben-numeral",
+      "categoryId": "zahlen",
+      "model": "count_array",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-count-7-p2w",
+        "q-img-scene-count-7-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-count-8",
+      "targetEntryId": "lex-zahlen-acht-numeral",
+      "categoryId": "zahlen",
+      "model": "count_array",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-count-8-p2w",
+        "q-img-scene-count-8-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-count-9",
+      "targetEntryId": "lex-zahlen-neun-numeral",
+      "categoryId": "zahlen",
+      "model": "count_array",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-count-9-p2w",
+        "q-img-scene-count-9-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-count-10",
+      "targetEntryId": "lex-zahlen-zehn-numeral",
+      "categoryId": "zahlen",
+      "model": "count_array",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-count-10-p2w",
+        "q-img-scene-count-10-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-count-11",
+      "targetEntryId": "lex-zahlen-elf-numeral",
+      "categoryId": "zahlen",
+      "model": "count_array",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-count-11-p2w",
+        "q-img-scene-count-11-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-count-12",
+      "targetEntryId": "lex-zahlen-zwoelf-numeral",
+      "categoryId": "zahlen",
+      "model": "count_array",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-count-12-p2w",
+        "q-img-scene-count-12-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-count-13",
+      "targetEntryId": "lex-zahlen-dreizehn-numeral",
+      "categoryId": "zahlen",
+      "model": "count_array",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-count-13-p2w",
+        "q-img-scene-count-13-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-count-14",
+      "targetEntryId": "lex-zahlen-vierzehn-numeral",
+      "categoryId": "zahlen",
+      "model": "count_array",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-count-14-p2w",
+        "q-img-scene-count-14-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-count-15",
+      "targetEntryId": "lex-zahlen-fuenfzehn-numeral",
+      "categoryId": "zahlen",
+      "model": "count_array",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-count-15-p2w",
+        "q-img-scene-count-15-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-count-16",
+      "targetEntryId": "lex-zahlen-sechzehn-numeral",
+      "categoryId": "zahlen",
+      "model": "count_array",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-count-16-p2w",
+        "q-img-scene-count-16-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-count-17",
+      "targetEntryId": "lex-zahlen-siebzehn-numeral",
+      "categoryId": "zahlen",
+      "model": "count_array",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-count-17-p2w",
+        "q-img-scene-count-17-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-count-18",
+      "targetEntryId": "lex-zahlen-achtzehn-numeral",
+      "categoryId": "zahlen",
+      "model": "count_array",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-count-18-p2w",
+        "q-img-scene-count-18-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-count-19",
+      "targetEntryId": "lex-zahlen-neunzehn-numeral",
+      "categoryId": "zahlen",
+      "model": "count_array",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-count-19-p2w",
+        "q-img-scene-count-19-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-count-20",
+      "targetEntryId": "lex-zahlen-zwanzig-numeral",
+      "categoryId": "zahlen",
+      "model": "count_array",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-count-20-p2w",
+        "q-img-scene-count-20-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-swatch-rot",
+      "targetEntryId": "lex-merkmale-rot-adjective",
+      "categoryId": "merkmale",
+      "model": "color_swatch",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-swatch-rot-p2w",
+        "q-img-scene-swatch-rot-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-swatch-blau",
+      "targetEntryId": "lex-merkmale-blau-adjective",
+      "categoryId": "merkmale",
+      "model": "color_swatch",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-swatch-blau-p2w",
+        "q-img-scene-swatch-blau-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-swatch-gelb",
+      "targetEntryId": "lex-merkmale-gelb-adjective",
+      "categoryId": "merkmale",
+      "model": "color_swatch",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-swatch-gelb-p2w",
+        "q-img-scene-swatch-gelb-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-swatch-grün",
+      "targetEntryId": "lex-merkmale-gruen-adjective",
+      "categoryId": "merkmale",
+      "model": "color_swatch",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-swatch-grün-p2w",
+        "q-img-scene-swatch-grün-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-swatch-weiß",
+      "targetEntryId": "lex-merkmale-weiss-adjective",
+      "categoryId": "merkmale",
+      "model": "color_swatch",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-swatch-weiß-p2w",
+        "q-img-scene-swatch-weiß-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-swatch-schwarz",
+      "targetEntryId": "lex-merkmale-schwarz-adjective",
+      "categoryId": "merkmale",
+      "model": "color_swatch",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-swatch-schwarz-p2w",
+        "q-img-scene-swatch-schwarz-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-swatch-braun",
+      "targetEntryId": "lex-merkmale-braun-adjective",
+      "categoryId": "merkmale",
+      "model": "color_swatch",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-swatch-braun-p2w",
+        "q-img-scene-swatch-braun-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-shape-kreis",
+      "targetEntryId": "lex-geometrie-kreis-noun",
+      "categoryId": "geometrie",
+      "model": "circle",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-shape-kreis-p2w",
+        "q-img-scene-shape-kreis-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-shape-dreieck",
+      "targetEntryId": "lex-geometrie-dreieck-noun",
+      "categoryId": "geometrie",
+      "model": "polygon",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-shape-dreieck-p2w",
+        "q-img-scene-shape-dreieck-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-shape-quadrat",
+      "targetEntryId": "lex-geometrie-quadrat-noun",
+      "categoryId": "geometrie",
+      "model": "rect",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-shape-quadrat-p2w",
+        "q-img-scene-shape-quadrat-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-shape-rechteck",
+      "targetEntryId": "lex-geometrie-rechteck-noun",
+      "categoryId": "geometrie",
+      "model": "rect",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-shape-rechteck-p2w",
+        "q-img-scene-shape-rechteck-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-shape-würfel",
+      "targetEntryId": "lex-geometrie-wuerfel-noun",
+      "categoryId": "geometrie",
+      "model": "cube_oblique",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-shape-würfel-p2w",
+        "q-img-scene-shape-würfel-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-shape-kugel",
+      "targetEntryId": "lex-geometrie-kugel-noun",
+      "categoryId": "geometrie",
+      "model": "sphere",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-shape-kugel-p2w",
+        "q-img-scene-shape-kugel-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-spatial-auf",
+      "targetEntryId": "lex-beziehungen-static-on-surface",
+      "categoryId": "beziehungen",
+      "model": "spatial_arrangement",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-spatial-auf-p2w",
+        "q-img-scene-spatial-auf-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-spatial-unter",
+      "targetEntryId": "lex-beziehungen-static-below",
+      "categoryId": "beziehungen",
+      "model": "spatial_arrangement",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-spatial-unter-p2w",
+        "q-img-scene-spatial-unter-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-spatial-neben",
+      "targetEntryId": "lex-beziehungen-static-next-to",
+      "categoryId": "beziehungen",
+      "model": "spatial_arrangement",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-spatial-neben-p2w",
+        "q-img-scene-spatial-neben-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-spatial-in",
+      "targetEntryId": "lex-beziehungen-static-inside",
+      "categoryId": "beziehungen",
+      "model": "spatial_arrangement",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-spatial-in-p2w",
+        "q-img-scene-spatial-in-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-spatial-vor",
+      "targetEntryId": "lex-beziehungen-spatial-front",
+      "categoryId": "beziehungen",
+      "model": "spatial_arrangement",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-spatial-vor-p2w",
+        "q-img-scene-spatial-vor-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-spatial-hinter",
+      "targetEntryId": "lex-beziehungen-spatial-behind",
+      "categoryId": "beziehungen",
+      "model": "spatial_arrangement",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-spatial-hinter-p2w",
+        "q-img-scene-spatial-hinter-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-half-eight",
+      "targetEntryId": "lex-rechnen-haelfte-noun",
+      "categoryId": "rechnen",
+      "model": "highlighted_count_array",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-half-eight-p2w",
+        "q-img-scene-half-eight-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-table-grid",
+      "targetEntryId": "lex-daten-tabelle-noun",
+      "categoryId": "daten",
+      "model": "table_grid",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-table-grid-p2w",
+        "q-img-scene-table-grid-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-object-apfel",
+      "targetEntryId": "lex-essen-apfel-noun",
+      "categoryId": "essen",
+      "model": "authored_object_illustration",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-object-apfel-p2w",
+        "q-img-scene-object-apfel-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-object-heft",
+      "targetEntryId": "lex-schule-heft-noun",
+      "categoryId": "schule",
+      "model": "authored_object_illustration",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-object-heft-p2w",
+        "q-img-scene-object-heft-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-object-buch",
+      "targetEntryId": "lex-schule-buch-noun",
+      "categoryId": "schule",
+      "model": "authored_object_illustration",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-object-buch-p2w",
+        "q-img-scene-object-buch-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-object-reis",
+      "targetEntryId": "lex-essen-reis-noun",
+      "categoryId": "essen",
+      "model": "authored_object_illustration",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-object-reis-p2w",
+        "q-img-scene-object-reis-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-object-ziege",
+      "targetEntryId": "lex-tiere-ziege-noun",
+      "categoryId": "tiere",
+      "model": "authored_object_illustration",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-object-ziege-p2w",
+        "q-img-scene-object-ziege-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-object-ohr",
+      "targetEntryId": "lex-koerper-ohr-noun",
+      "categoryId": "koerper",
+      "model": "authored_object_illustration",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-object-ohr-p2w",
+        "q-img-scene-object-ohr-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-object-hand",
+      "targetEntryId": "lex-koerper-hand-noun",
+      "categoryId": "koerper",
+      "model": "authored_object_illustration",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-object-hand-p2w",
+        "q-img-scene-object-hand-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-object-regenschirm",
+      "targetEntryId": "lex-wetter-regenschirm-noun",
+      "categoryId": "wetter",
+      "model": "authored_object_illustration",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-object-regenschirm-p2w",
+        "q-img-scene-object-regenschirm-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-object-fahrrad",
+      "targetEntryId": "lex-verkehr-fahrrad-noun",
+      "categoryId": "verkehr",
+      "model": "authored_object_illustration",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-object-fahrrad-p2w",
+        "q-img-scene-object-fahrrad-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    },
+    {
+      "id": "scene-object-schiff",
+      "targetEntryId": "lex-verkehr-schiff-noun",
+      "categoryId": "verkehr",
+      "model": "authored_object_illustration",
+      "rendered": true,
+      "visuallyReviewed": true,
+      "assessmentEligibility": "eligible_after_runtime_render_and_qa",
+      "imageQuestionIds": [
+        "q-img-scene-object-schiff-p2w",
+        "q-img-scene-object-schiff-w2s"
+      ],
+      "notesDe": "Original SVG runtime renderer; no emoji substitute. Neutral accessible label only."
+    }
+  ]
+}

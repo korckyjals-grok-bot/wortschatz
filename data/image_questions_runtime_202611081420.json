@@ -1,0 +1,5951 @@
+{
+  "schemaVersion": "1.0.0",
+  "contentVersion": "1.0.0-F-scenes",
+  "createdAt": "2026-11-08T14:20:00-06:00",
+  "timezone": "America/El_Salvador",
+  "scope": "Runtime picture questions for 52 rendered scene contracts. Not part of the original 1060 text bank.",
+  "notOfficialSchoolWordList": true,
+  "questionCount": 104,
+  "questions": [
+    {
+      "id": "q-img-scene-count-0-p2w",
+      "targetEntryId": "lex-zahlen-null-numeral",
+      "categoryId": "zahlen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-count-0"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "null",
+          "senseEntryId": "lex-zahlen-null-numeral"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "eins",
+          "senseEntryId": "lex-zahlen-eins-numeral"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "elf",
+          "senseEntryId": "lex-zahlen-elf-numeral"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Anzahl, wenn gar nichts vorhanden ist. Hier liegen null Äpfel.",
+      "helpEsLatam": {
+        "meaning": "cero",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-count-0"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-count-0-w2s",
+      "targetEntryId": "lex-zahlen-null-numeral",
+      "categoryId": "zahlen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "null"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-count-0",
+          "senseEntryId": "lex-zahlen-null-numeral"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-count-1",
+          "senseEntryId": "lex-zahlen-eins-numeral"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-count-11",
+          "senseEntryId": "lex-zahlen-elf-numeral"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Anzahl, wenn gar nichts vorhanden ist. Hier liegen null Äpfel.",
+      "helpEsLatam": {
+        "meaning": "cero",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-count-0"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-count-1-p2w",
+      "targetEntryId": "lex-zahlen-eins-numeral",
+      "categoryId": "zahlen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-count-1"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "eins",
+          "senseEntryId": "lex-zahlen-eins-numeral"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "null",
+          "senseEntryId": "lex-zahlen-null-numeral"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "fünfzehn",
+          "senseEntryId": "lex-zahlen-fuenfzehn-numeral"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Anzahl eines einzelnen Dings. Eins ist weniger als zwei.",
+      "helpEsLatam": {
+        "meaning": "uno",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-count-1"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-count-1-w2s",
+      "targetEntryId": "lex-zahlen-eins-numeral",
+      "categoryId": "zahlen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "eins"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-count-1",
+          "senseEntryId": "lex-zahlen-eins-numeral"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-count-0",
+          "senseEntryId": "lex-zahlen-null-numeral"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-count-15",
+          "senseEntryId": "lex-zahlen-fuenfzehn-numeral"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Anzahl eines einzelnen Dings. Eins ist weniger als zwei.",
+      "helpEsLatam": {
+        "meaning": "uno",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-count-1"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-count-2-p2w",
+      "targetEntryId": "lex-zahlen-zwei-numeral",
+      "categoryId": "zahlen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-count-2"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "zwei",
+          "senseEntryId": "lex-zahlen-zwei-numeral"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "fünfzehn",
+          "senseEntryId": "lex-zahlen-fuenfzehn-numeral"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "drei",
+          "senseEntryId": "lex-zahlen-drei-numeral"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Anzahl von einem Paar. Zwei Schuhe bilden ein Paar.",
+      "helpEsLatam": {
+        "meaning": "dos",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-count-2"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-count-2-w2s",
+      "targetEntryId": "lex-zahlen-zwei-numeral",
+      "categoryId": "zahlen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "zwei"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-count-2",
+          "senseEntryId": "lex-zahlen-zwei-numeral"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-count-15",
+          "senseEntryId": "lex-zahlen-fuenfzehn-numeral"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-count-3",
+          "senseEntryId": "lex-zahlen-drei-numeral"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Anzahl von einem Paar. Zwei Schuhe bilden ein Paar.",
+      "helpEsLatam": {
+        "meaning": "dos",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-count-2"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-count-3-p2w",
+      "targetEntryId": "lex-zahlen-drei-numeral",
+      "categoryId": "zahlen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-count-3"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "drei",
+          "senseEntryId": "lex-zahlen-drei-numeral"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "sieben",
+          "senseEntryId": "lex-zahlen-sieben-numeral"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "zwanzig",
+          "senseEntryId": "lex-zahlen-zwanzig-numeral"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Anzahl nach zwei und vor vier. Drei Kinder spielen.",
+      "helpEsLatam": {
+        "meaning": "tres",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-count-3"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-count-3-w2s",
+      "targetEntryId": "lex-zahlen-drei-numeral",
+      "categoryId": "zahlen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "drei"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-count-3",
+          "senseEntryId": "lex-zahlen-drei-numeral"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-count-7",
+          "senseEntryId": "lex-zahlen-sieben-numeral"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-count-20",
+          "senseEntryId": "lex-zahlen-zwanzig-numeral"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Anzahl nach zwei und vor vier. Drei Kinder spielen.",
+      "helpEsLatam": {
+        "meaning": "tres",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-count-3"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-count-4-p2w",
+      "targetEntryId": "lex-zahlen-vier-numeral",
+      "categoryId": "zahlen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-count-4"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "vier",
+          "senseEntryId": "lex-zahlen-vier-numeral"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "sieben",
+          "senseEntryId": "lex-zahlen-sieben-numeral"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "fünf",
+          "senseEntryId": "lex-zahlen-fuenf-numeral"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Anzahl nach drei und vor fünf. Vier Stühle stehen am Tisch.",
+      "helpEsLatam": {
+        "meaning": "cuatro",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-count-4"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-count-4-w2s",
+      "targetEntryId": "lex-zahlen-vier-numeral",
+      "categoryId": "zahlen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "vier"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-count-4",
+          "senseEntryId": "lex-zahlen-vier-numeral"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-count-7",
+          "senseEntryId": "lex-zahlen-sieben-numeral"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-count-5",
+          "senseEntryId": "lex-zahlen-fuenf-numeral"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Anzahl nach drei und vor fünf. Vier Stühle stehen am Tisch.",
+      "helpEsLatam": {
+        "meaning": "cuatro",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-count-4"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-count-5-p2w",
+      "targetEntryId": "lex-zahlen-fuenf-numeral",
+      "categoryId": "zahlen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-count-5"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "fünf",
+          "senseEntryId": "lex-zahlen-fuenf-numeral"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "zehn",
+          "senseEntryId": "lex-zahlen-zehn-numeral"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "vier",
+          "senseEntryId": "lex-zahlen-vier-numeral"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Anzahl der Finger an einer menschlichen Hand. Fünf Finger sind an einer Hand.",
+      "helpEsLatam": {
+        "meaning": "cinco",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-count-5"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-count-5-w2s",
+      "targetEntryId": "lex-zahlen-fuenf-numeral",
+      "categoryId": "zahlen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "fünf"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-count-5",
+          "senseEntryId": "lex-zahlen-fuenf-numeral"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-count-10",
+          "senseEntryId": "lex-zahlen-zehn-numeral"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-count-4",
+          "senseEntryId": "lex-zahlen-vier-numeral"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Anzahl der Finger an einer menschlichen Hand. Fünf Finger sind an einer Hand.",
+      "helpEsLatam": {
+        "meaning": "cinco",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-count-5"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-count-6-p2w",
+      "targetEntryId": "lex-zahlen-sechs-numeral",
+      "categoryId": "zahlen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-count-6"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "sechs",
+          "senseEntryId": "lex-zahlen-sechs-numeral"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "zwanzig",
+          "senseEntryId": "lex-zahlen-zwanzig-numeral"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "fünfzehn",
+          "senseEntryId": "lex-zahlen-fuenfzehn-numeral"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Anzahl nach fünf und vor sieben. Sechs Kinder kommen.",
+      "helpEsLatam": {
+        "meaning": "seis",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-count-6"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-count-6-w2s",
+      "targetEntryId": "lex-zahlen-sechs-numeral",
+      "categoryId": "zahlen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "sechs"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-count-6",
+          "senseEntryId": "lex-zahlen-sechs-numeral"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-count-20",
+          "senseEntryId": "lex-zahlen-zwanzig-numeral"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-count-15",
+          "senseEntryId": "lex-zahlen-fuenfzehn-numeral"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Anzahl nach fünf und vor sieben. Sechs Kinder kommen.",
+      "helpEsLatam": {
+        "meaning": "seis",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-count-6"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-count-7-p2w",
+      "targetEntryId": "lex-zahlen-sieben-numeral",
+      "categoryId": "zahlen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-count-7"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "sieben",
+          "senseEntryId": "lex-zahlen-sieben-numeral"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "vier",
+          "senseEntryId": "lex-zahlen-vier-numeral"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "drei",
+          "senseEntryId": "lex-zahlen-drei-numeral"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Anzahl der Tage in einer Woche. Sieben Tage sind eine Woche.",
+      "helpEsLatam": {
+        "meaning": "siete",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-count-7"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-count-7-w2s",
+      "targetEntryId": "lex-zahlen-sieben-numeral",
+      "categoryId": "zahlen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "sieben"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-count-7",
+          "senseEntryId": "lex-zahlen-sieben-numeral"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-count-4",
+          "senseEntryId": "lex-zahlen-vier-numeral"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-count-3",
+          "senseEntryId": "lex-zahlen-drei-numeral"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Anzahl der Tage in einer Woche. Sieben Tage sind eine Woche.",
+      "helpEsLatam": {
+        "meaning": "siete",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-count-7"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-count-8-p2w",
+      "targetEntryId": "lex-zahlen-acht-numeral",
+      "categoryId": "zahlen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-count-8"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "acht",
+          "senseEntryId": "lex-zahlen-acht-numeral"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "vierzehn",
+          "senseEntryId": "lex-zahlen-vierzehn-numeral"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "sechs",
+          "senseEntryId": "lex-zahlen-sechs-numeral"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Anzahl nach sieben und vor neun. Acht Bäume stehen im Garten.",
+      "helpEsLatam": {
+        "meaning": "ocho",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-count-8"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-count-8-w2s",
+      "targetEntryId": "lex-zahlen-acht-numeral",
+      "categoryId": "zahlen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "acht"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-count-8",
+          "senseEntryId": "lex-zahlen-acht-numeral"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-count-14",
+          "senseEntryId": "lex-zahlen-vierzehn-numeral"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-count-6",
+          "senseEntryId": "lex-zahlen-sechs-numeral"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Anzahl nach sieben und vor neun. Acht Bäume stehen im Garten.",
+      "helpEsLatam": {
+        "meaning": "ocho",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-count-8"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-count-9-p2w",
+      "targetEntryId": "lex-zahlen-neun-numeral",
+      "categoryId": "zahlen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-count-9"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "neun",
+          "senseEntryId": "lex-zahlen-neun-numeral"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "fünf",
+          "senseEntryId": "lex-zahlen-fuenf-numeral"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "elf",
+          "senseEntryId": "lex-zahlen-elf-numeral"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Anzahl nach acht und vor zehn. Neun Bälle liegen im Korb.",
+      "helpEsLatam": {
+        "meaning": "nueve",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-count-9"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-count-9-w2s",
+      "targetEntryId": "lex-zahlen-neun-numeral",
+      "categoryId": "zahlen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "neun"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-count-9",
+          "senseEntryId": "lex-zahlen-neun-numeral"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-count-5",
+          "senseEntryId": "lex-zahlen-fuenf-numeral"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-count-11",
+          "senseEntryId": "lex-zahlen-elf-numeral"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Anzahl nach acht und vor zehn. Neun Bälle liegen im Korb.",
+      "helpEsLatam": {
+        "meaning": "nueve",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-count-9"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-count-10-p2w",
+      "targetEntryId": "lex-zahlen-zehn-numeral",
+      "categoryId": "zahlen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-count-10"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "zehn",
+          "senseEntryId": "lex-zahlen-zehn-numeral"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "fünf",
+          "senseEntryId": "lex-zahlen-fuenf-numeral"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "sechzehn",
+          "senseEntryId": "lex-zahlen-sechzehn-numeral"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Anzahl der Finger an beiden menschlichen Händen zusammen. Zehn Finger sind an zwei Händen.",
+      "helpEsLatam": {
+        "meaning": "diez",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-count-10"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-count-10-w2s",
+      "targetEntryId": "lex-zahlen-zehn-numeral",
+      "categoryId": "zahlen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "zehn"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-count-10",
+          "senseEntryId": "lex-zahlen-zehn-numeral"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-count-5",
+          "senseEntryId": "lex-zahlen-fuenf-numeral"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-count-16",
+          "senseEntryId": "lex-zahlen-sechzehn-numeral"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Anzahl der Finger an beiden menschlichen Händen zusammen. Zehn Finger sind an zwei Händen.",
+      "helpEsLatam": {
+        "meaning": "diez",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-count-10"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-count-11-p2w",
+      "targetEntryId": "lex-zahlen-elf-numeral",
+      "categoryId": "zahlen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-count-11"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "elf",
+          "senseEntryId": "lex-zahlen-elf-numeral"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "zwölf",
+          "senseEntryId": "lex-zahlen-zwoelf-numeral"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "achtzehn",
+          "senseEntryId": "lex-zahlen-achtzehn-numeral"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Anzahl direkt nach zehn. Elf Kinder stehen in einer Reihe.",
+      "helpEsLatam": {
+        "meaning": "once",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-count-11"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-count-11-w2s",
+      "targetEntryId": "lex-zahlen-elf-numeral",
+      "categoryId": "zahlen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "elf"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-count-11",
+          "senseEntryId": "lex-zahlen-elf-numeral"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-count-12",
+          "senseEntryId": "lex-zahlen-zwoelf-numeral"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-count-18",
+          "senseEntryId": "lex-zahlen-achtzehn-numeral"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Anzahl direkt nach zehn. Elf Kinder stehen in einer Reihe.",
+      "helpEsLatam": {
+        "meaning": "once",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-count-11"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-count-12-p2w",
+      "targetEntryId": "lex-zahlen-zwoelf-numeral",
+      "categoryId": "zahlen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-count-12"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "zwölf",
+          "senseEntryId": "lex-zahlen-zwoelf-numeral"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "elf",
+          "senseEntryId": "lex-zahlen-elf-numeral"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "neunzehn",
+          "senseEntryId": "lex-zahlen-neunzehn-numeral"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Anzahl der Monate in einem Jahr. Zwölf Monate sind ein Jahr.",
+      "helpEsLatam": {
+        "meaning": "doce",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-count-12"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-count-12-w2s",
+      "targetEntryId": "lex-zahlen-zwoelf-numeral",
+      "categoryId": "zahlen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "zwölf"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-count-12",
+          "senseEntryId": "lex-zahlen-zwoelf-numeral"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-count-11",
+          "senseEntryId": "lex-zahlen-elf-numeral"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-count-19",
+          "senseEntryId": "lex-zahlen-neunzehn-numeral"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Anzahl der Monate in einem Jahr. Zwölf Monate sind ein Jahr.",
+      "helpEsLatam": {
+        "meaning": "doce",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-count-12"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-count-13-p2w",
+      "targetEntryId": "lex-zahlen-dreizehn-numeral",
+      "categoryId": "zahlen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-count-13"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "dreizehn",
+          "senseEntryId": "lex-zahlen-dreizehn-numeral"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "zwanzig",
+          "senseEntryId": "lex-zahlen-zwanzig-numeral"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "zwei",
+          "senseEntryId": "lex-zahlen-zwei-numeral"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Anzahl nach zwölf und vor vierzehn. Dreizehn Murmeln liegen im Beutel.",
+      "helpEsLatam": {
+        "meaning": "trece",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-count-13"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-count-13-w2s",
+      "targetEntryId": "lex-zahlen-dreizehn-numeral",
+      "categoryId": "zahlen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "dreizehn"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-count-13",
+          "senseEntryId": "lex-zahlen-dreizehn-numeral"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-count-20",
+          "senseEntryId": "lex-zahlen-zwanzig-numeral"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-count-2",
+          "senseEntryId": "lex-zahlen-zwei-numeral"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Anzahl nach zwölf und vor vierzehn. Dreizehn Murmeln liegen im Beutel.",
+      "helpEsLatam": {
+        "meaning": "trece",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-count-13"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-count-14-p2w",
+      "targetEntryId": "lex-zahlen-vierzehn-numeral",
+      "categoryId": "zahlen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-count-14"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "vierzehn",
+          "senseEntryId": "lex-zahlen-vierzehn-numeral"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "acht",
+          "senseEntryId": "lex-zahlen-acht-numeral"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "elf",
+          "senseEntryId": "lex-zahlen-elf-numeral"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Anzahl von zwei vollen Wochen in Tagen. Vierzehn Tage sind zwei Wochen.",
+      "helpEsLatam": {
+        "meaning": "catorce",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-count-14"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-count-14-w2s",
+      "targetEntryId": "lex-zahlen-vierzehn-numeral",
+      "categoryId": "zahlen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "vierzehn"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-count-14",
+          "senseEntryId": "lex-zahlen-vierzehn-numeral"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-count-8",
+          "senseEntryId": "lex-zahlen-acht-numeral"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-count-11",
+          "senseEntryId": "lex-zahlen-elf-numeral"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Anzahl von zwei vollen Wochen in Tagen. Vierzehn Tage sind zwei Wochen.",
+      "helpEsLatam": {
+        "meaning": "catorce",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-count-14"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-count-15-p2w",
+      "targetEntryId": "lex-zahlen-fuenfzehn-numeral",
+      "categoryId": "zahlen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-count-15"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "fünfzehn",
+          "senseEntryId": "lex-zahlen-fuenfzehn-numeral"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "zwei",
+          "senseEntryId": "lex-zahlen-zwei-numeral"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "sechs",
+          "senseEntryId": "lex-zahlen-sechs-numeral"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Anzahl nach vierzehn und vor sechzehn. Fünfzehn Karten liegen auf dem Tisch.",
+      "helpEsLatam": {
+        "meaning": "quince",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-count-15"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-count-15-w2s",
+      "targetEntryId": "lex-zahlen-fuenfzehn-numeral",
+      "categoryId": "zahlen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "fünfzehn"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-count-15",
+          "senseEntryId": "lex-zahlen-fuenfzehn-numeral"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-count-2",
+          "senseEntryId": "lex-zahlen-zwei-numeral"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-count-6",
+          "senseEntryId": "lex-zahlen-sechs-numeral"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Anzahl nach vierzehn und vor sechzehn. Fünfzehn Karten liegen auf dem Tisch.",
+      "helpEsLatam": {
+        "meaning": "quince",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-count-15"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-count-16-p2w",
+      "targetEntryId": "lex-zahlen-sechzehn-numeral",
+      "categoryId": "zahlen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-count-16"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "sechzehn",
+          "senseEntryId": "lex-zahlen-sechzehn-numeral"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "zehn",
+          "senseEntryId": "lex-zahlen-zehn-numeral"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "eins",
+          "senseEntryId": "lex-zahlen-eins-numeral"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Anzahl nach fünfzehn und vor siebzehn. Sechzehn Bauklötze liegen in der Kiste.",
+      "helpEsLatam": {
+        "meaning": "dieciséis",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-count-16"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-count-16-w2s",
+      "targetEntryId": "lex-zahlen-sechzehn-numeral",
+      "categoryId": "zahlen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "sechzehn"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-count-16",
+          "senseEntryId": "lex-zahlen-sechzehn-numeral"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-count-10",
+          "senseEntryId": "lex-zahlen-zehn-numeral"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-count-1",
+          "senseEntryId": "lex-zahlen-eins-numeral"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Anzahl nach fünfzehn und vor siebzehn. Sechzehn Bauklötze liegen in der Kiste.",
+      "helpEsLatam": {
+        "meaning": "dieciséis",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-count-16"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-count-17-p2w",
+      "targetEntryId": "lex-zahlen-siebzehn-numeral",
+      "categoryId": "zahlen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-count-17"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "siebzehn",
+          "senseEntryId": "lex-zahlen-siebzehn-numeral"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "sieben",
+          "senseEntryId": "lex-zahlen-sieben-numeral"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "drei",
+          "senseEntryId": "lex-zahlen-drei-numeral"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Anzahl nach sechzehn und vor achtzehn. Siebzehn Häuser sind zu sehen.",
+      "helpEsLatam": {
+        "meaning": "diecisiete",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-count-17"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-count-17-w2s",
+      "targetEntryId": "lex-zahlen-siebzehn-numeral",
+      "categoryId": "zahlen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "siebzehn"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-count-17",
+          "senseEntryId": "lex-zahlen-siebzehn-numeral"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-count-7",
+          "senseEntryId": "lex-zahlen-sieben-numeral"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-count-3",
+          "senseEntryId": "lex-zahlen-drei-numeral"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Anzahl nach sechzehn und vor achtzehn. Siebzehn Häuser sind zu sehen.",
+      "helpEsLatam": {
+        "meaning": "diecisiete",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-count-17"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-count-18-p2w",
+      "targetEntryId": "lex-zahlen-achtzehn-numeral",
+      "categoryId": "zahlen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-count-18"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "achtzehn",
+          "senseEntryId": "lex-zahlen-achtzehn-numeral"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "elf",
+          "senseEntryId": "lex-zahlen-elf-numeral"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "drei",
+          "senseEntryId": "lex-zahlen-drei-numeral"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Anzahl nach siebzehn und vor neunzehn. Achtzehn Perlen liegen in der Dose.",
+      "helpEsLatam": {
+        "meaning": "dieciocho",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-count-18"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-count-18-w2s",
+      "targetEntryId": "lex-zahlen-achtzehn-numeral",
+      "categoryId": "zahlen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "achtzehn"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-count-18",
+          "senseEntryId": "lex-zahlen-achtzehn-numeral"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-count-11",
+          "senseEntryId": "lex-zahlen-elf-numeral"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-count-3",
+          "senseEntryId": "lex-zahlen-drei-numeral"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Anzahl nach siebzehn und vor neunzehn. Achtzehn Perlen liegen in der Dose.",
+      "helpEsLatam": {
+        "meaning": "dieciocho",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-count-18"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-count-19-p2w",
+      "targetEntryId": "lex-zahlen-neunzehn-numeral",
+      "categoryId": "zahlen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-count-19"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "neunzehn",
+          "senseEntryId": "lex-zahlen-neunzehn-numeral"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "zwölf",
+          "senseEntryId": "lex-zahlen-zwoelf-numeral"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "drei",
+          "senseEntryId": "lex-zahlen-drei-numeral"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Anzahl direkt vor zwanzig. Neunzehn Blätter liegen auf dem Tisch.",
+      "helpEsLatam": {
+        "meaning": "diecinueve",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-count-19"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-count-19-w2s",
+      "targetEntryId": "lex-zahlen-neunzehn-numeral",
+      "categoryId": "zahlen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "neunzehn"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-count-19",
+          "senseEntryId": "lex-zahlen-neunzehn-numeral"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-count-12",
+          "senseEntryId": "lex-zahlen-zwoelf-numeral"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-count-3",
+          "senseEntryId": "lex-zahlen-drei-numeral"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Anzahl direkt vor zwanzig. Neunzehn Blätter liegen auf dem Tisch.",
+      "helpEsLatam": {
+        "meaning": "diecinueve",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-count-19"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-count-20-p2w",
+      "targetEntryId": "lex-zahlen-zwanzig-numeral",
+      "categoryId": "zahlen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-count-20"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "zwanzig",
+          "senseEntryId": "lex-zahlen-zwanzig-numeral"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "sechs",
+          "senseEntryId": "lex-zahlen-sechs-numeral"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "drei",
+          "senseEntryId": "lex-zahlen-drei-numeral"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Anzahl von zwei Zehnergruppen. Zwanzig Stifte liegen in der Schachtel.",
+      "helpEsLatam": {
+        "meaning": "veinte",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-count-20"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-count-20-w2s",
+      "targetEntryId": "lex-zahlen-zwanzig-numeral",
+      "categoryId": "zahlen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "zwanzig"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-count-20",
+          "senseEntryId": "lex-zahlen-zwanzig-numeral"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-count-6",
+          "senseEntryId": "lex-zahlen-sechs-numeral"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-count-3",
+          "senseEntryId": "lex-zahlen-drei-numeral"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Anzahl von zwei Zehnergruppen. Zwanzig Stifte liegen in der Schachtel.",
+      "helpEsLatam": {
+        "meaning": "veinte",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-count-20"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-swatch-rot-p2w",
+      "targetEntryId": "lex-merkmale-rot-adjective",
+      "categoryId": "merkmale",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-swatch-rot"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "rot",
+          "senseEntryId": "lex-merkmale-rot-adjective"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "schwarz",
+          "senseEntryId": "lex-merkmale-schwarz-adjective"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "gelb",
+          "senseEntryId": "lex-merkmale-gelb-adjective"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Farbe eines Stoppschilds hinter den weißen Buchstaben. Der Stift ist rot.",
+      "helpEsLatam": {
+        "meaning": "rojo / roja",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-swatch-rot"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-swatch-rot-w2s",
+      "targetEntryId": "lex-merkmale-rot-adjective",
+      "categoryId": "merkmale",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "rot"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-swatch-rot",
+          "senseEntryId": "lex-merkmale-rot-adjective"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-swatch-schwarz",
+          "senseEntryId": "lex-merkmale-schwarz-adjective"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-swatch-gelb",
+          "senseEntryId": "lex-merkmale-gelb-adjective"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Farbe eines Stoppschilds hinter den weißen Buchstaben. Der Stift ist rot.",
+      "helpEsLatam": {
+        "meaning": "rojo / roja",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-swatch-rot"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-swatch-blau-p2w",
+      "targetEntryId": "lex-merkmale-blau-adjective",
+      "categoryId": "merkmale",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-swatch-blau"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "blau",
+          "senseEntryId": "lex-merkmale-blau-adjective"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "rot",
+          "senseEntryId": "lex-merkmale-rot-adjective"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "schwarz",
+          "senseEntryId": "lex-merkmale-schwarz-adjective"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Farbe eines klaren Himmels am Tag. Der Himmel ist blau.",
+      "helpEsLatam": {
+        "meaning": "azul",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-swatch-blau"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-swatch-blau-w2s",
+      "targetEntryId": "lex-merkmale-blau-adjective",
+      "categoryId": "merkmale",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "blau"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-swatch-blau",
+          "senseEntryId": "lex-merkmale-blau-adjective"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-swatch-rot",
+          "senseEntryId": "lex-merkmale-rot-adjective"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-swatch-schwarz",
+          "senseEntryId": "lex-merkmale-schwarz-adjective"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Farbe eines klaren Himmels am Tag. Der Himmel ist blau.",
+      "helpEsLatam": {
+        "meaning": "azul",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-swatch-blau"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-swatch-gelb-p2w",
+      "targetEntryId": "lex-merkmale-gelb-adjective",
+      "categoryId": "merkmale",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-swatch-gelb"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "gelb",
+          "senseEntryId": "lex-merkmale-gelb-adjective"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "schwarz",
+          "senseEntryId": "lex-merkmale-schwarz-adjective"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "rot",
+          "senseEntryId": "lex-merkmale-rot-adjective"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Farbe einer reifen Banane ohne braune Flecken. Die Banane ist gelb.",
+      "helpEsLatam": {
+        "meaning": "amarillo / amarilla",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-swatch-gelb"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-swatch-gelb-w2s",
+      "targetEntryId": "lex-merkmale-gelb-adjective",
+      "categoryId": "merkmale",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "gelb"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-swatch-gelb",
+          "senseEntryId": "lex-merkmale-gelb-adjective"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-swatch-schwarz",
+          "senseEntryId": "lex-merkmale-schwarz-adjective"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-swatch-rot",
+          "senseEntryId": "lex-merkmale-rot-adjective"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Farbe einer reifen Banane ohne braune Flecken. Die Banane ist gelb.",
+      "helpEsLatam": {
+        "meaning": "amarillo / amarilla",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-swatch-gelb"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-swatch-grün-p2w",
+      "targetEntryId": "lex-merkmale-gruen-adjective",
+      "categoryId": "merkmale",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-swatch-grün"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "grün",
+          "senseEntryId": "lex-merkmale-gruen-adjective"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "weiß",
+          "senseEntryId": "lex-merkmale-weiss-adjective"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "schwarz",
+          "senseEntryId": "lex-merkmale-schwarz-adjective"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Farbe von frischem Gras und vielen Blättern. Das Blatt ist grün.",
+      "helpEsLatam": {
+        "meaning": "verde",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-swatch-grün"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-swatch-grün-w2s",
+      "targetEntryId": "lex-merkmale-gruen-adjective",
+      "categoryId": "merkmale",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "grün"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-swatch-grün",
+          "senseEntryId": "lex-merkmale-gruen-adjective"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-swatch-weiß",
+          "senseEntryId": "lex-merkmale-weiss-adjective"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-swatch-schwarz",
+          "senseEntryId": "lex-merkmale-schwarz-adjective"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Farbe von frischem Gras und vielen Blättern. Das Blatt ist grün.",
+      "helpEsLatam": {
+        "meaning": "verde",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-swatch-grün"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-swatch-weiß-p2w",
+      "targetEntryId": "lex-merkmale-weiss-adjective",
+      "categoryId": "merkmale",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-swatch-weiß"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "weiß",
+          "senseEntryId": "lex-merkmale-weiss-adjective"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "gelb",
+          "senseEntryId": "lex-merkmale-gelb-adjective"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "grün",
+          "senseEntryId": "lex-merkmale-gruen-adjective"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Farbe von frischem Schnee oder Milch. Die Milch ist weiß.",
+      "helpEsLatam": {
+        "meaning": "blanco / blanca",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-swatch-weiß"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-swatch-weiß-w2s",
+      "targetEntryId": "lex-merkmale-weiss-adjective",
+      "categoryId": "merkmale",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "weiß"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-swatch-weiß",
+          "senseEntryId": "lex-merkmale-weiss-adjective"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-swatch-gelb",
+          "senseEntryId": "lex-merkmale-gelb-adjective"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-swatch-grün",
+          "senseEntryId": "lex-merkmale-gruen-adjective"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Farbe von frischem Schnee oder Milch. Die Milch ist weiß.",
+      "helpEsLatam": {
+        "meaning": "blanco / blanca",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-swatch-weiß"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-swatch-schwarz-p2w",
+      "targetEntryId": "lex-merkmale-schwarz-adjective",
+      "categoryId": "merkmale",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-swatch-schwarz"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "schwarz",
+          "senseEntryId": "lex-merkmale-schwarz-adjective"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "gelb",
+          "senseEntryId": "lex-merkmale-gelb-adjective"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "rot",
+          "senseEntryId": "lex-merkmale-rot-adjective"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die sehr dunkle Farbe von Ruß. Die Kohle ist schwarz.",
+      "helpEsLatam": {
+        "meaning": "negro / negra",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-swatch-schwarz"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-swatch-schwarz-w2s",
+      "targetEntryId": "lex-merkmale-schwarz-adjective",
+      "categoryId": "merkmale",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "schwarz"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-swatch-schwarz",
+          "senseEntryId": "lex-merkmale-schwarz-adjective"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-swatch-gelb",
+          "senseEntryId": "lex-merkmale-gelb-adjective"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-swatch-rot",
+          "senseEntryId": "lex-merkmale-rot-adjective"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die sehr dunkle Farbe von Ruß. Die Kohle ist schwarz.",
+      "helpEsLatam": {
+        "meaning": "negro / negra",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-swatch-schwarz"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-swatch-braun-p2w",
+      "targetEntryId": "lex-merkmale-braun-adjective",
+      "categoryId": "merkmale",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-swatch-braun"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "braun",
+          "senseEntryId": "lex-merkmale-braun-adjective"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "rot",
+          "senseEntryId": "lex-merkmale-rot-adjective"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "schwarz",
+          "senseEntryId": "lex-merkmale-schwarz-adjective"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Farbe von Kakao oder vielen Baumstämmen. Der Stamm ist braun.",
+      "helpEsLatam": {
+        "meaning": "café / marrón",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-swatch-braun"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-swatch-braun-w2s",
+      "targetEntryId": "lex-merkmale-braun-adjective",
+      "categoryId": "merkmale",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "braun"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-swatch-braun",
+          "senseEntryId": "lex-merkmale-braun-adjective"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-swatch-rot",
+          "senseEntryId": "lex-merkmale-rot-adjective"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-swatch-schwarz",
+          "senseEntryId": "lex-merkmale-schwarz-adjective"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Die Farbe von Kakao oder vielen Baumstämmen. Der Stamm ist braun.",
+      "helpEsLatam": {
+        "meaning": "café / marrón",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-swatch-braun"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-shape-kreis-p2w",
+      "targetEntryId": "lex-geometrie-kreis-noun",
+      "categoryId": "geometrie",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-shape-kreis"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "der Kreis",
+          "senseEntryId": "lex-geometrie-kreis-noun"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "das Dreieck",
+          "senseEntryId": "lex-geometrie-dreieck-noun"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "die Kugel",
+          "senseEntryId": "lex-geometrie-kugel-noun"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Eine runde ebene Form ohne Ecken. Mia zeichnet einen Kreis.",
+      "helpEsLatam": {
+        "meaning": "círculo (forma redonda plana, no medida de longitud)",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-shape-kreis"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-shape-kreis-w2s",
+      "targetEntryId": "lex-geometrie-kreis-noun",
+      "categoryId": "geometrie",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "der Kreis"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-shape-kreis",
+          "senseEntryId": "lex-geometrie-kreis-noun"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-shape-dreieck",
+          "senseEntryId": "lex-geometrie-dreieck-noun"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-shape-kugel",
+          "senseEntryId": "lex-geometrie-kugel-noun"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Eine runde ebene Form ohne Ecken. Mia zeichnet einen Kreis.",
+      "helpEsLatam": {
+        "meaning": "círculo (forma redonda plana, no medida de longitud)",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-shape-kreis"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-shape-dreieck-p2w",
+      "targetEntryId": "lex-geometrie-dreieck-noun",
+      "categoryId": "geometrie",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-shape-dreieck"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "das Dreieck",
+          "senseEntryId": "lex-geometrie-dreieck-noun"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "das Quadrat",
+          "senseEntryId": "lex-geometrie-quadrat-noun"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "das Rechteck",
+          "senseEntryId": "lex-geometrie-rechteck-noun"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Eine ebene Form mit drei geraden Seiten und drei Ecken. Mia zeichnet ein Dreieck.",
+      "helpEsLatam": {
+        "meaning": "triángulo",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-shape-dreieck"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-shape-dreieck-w2s",
+      "targetEntryId": "lex-geometrie-dreieck-noun",
+      "categoryId": "geometrie",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "das Dreieck"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-shape-dreieck",
+          "senseEntryId": "lex-geometrie-dreieck-noun"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-shape-quadrat",
+          "senseEntryId": "lex-geometrie-quadrat-noun"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-shape-rechteck",
+          "senseEntryId": "lex-geometrie-rechteck-noun"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Eine ebene Form mit drei geraden Seiten und drei Ecken. Mia zeichnet ein Dreieck.",
+      "helpEsLatam": {
+        "meaning": "triángulo",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-shape-dreieck"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-shape-quadrat-p2w",
+      "targetEntryId": "lex-geometrie-quadrat-noun",
+      "categoryId": "geometrie",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-shape-quadrat"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "das Quadrat",
+          "senseEntryId": "lex-geometrie-quadrat-noun"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "das Rechteck",
+          "senseEntryId": "lex-geometrie-rechteck-noun"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "das Dreieck",
+          "senseEntryId": "lex-geometrie-dreieck-noun"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Eine ebene Form mit vier gleich langen Seiten und vier rechten Winkeln. Das Quadrat hat vier gleich lange Seiten.",
+      "helpEsLatam": {
+        "meaning": "cuadrado",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-shape-quadrat"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-shape-quadrat-w2s",
+      "targetEntryId": "lex-geometrie-quadrat-noun",
+      "categoryId": "geometrie",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "das Quadrat"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-shape-quadrat",
+          "senseEntryId": "lex-geometrie-quadrat-noun"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-shape-rechteck",
+          "senseEntryId": "lex-geometrie-rechteck-noun"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-shape-dreieck",
+          "senseEntryId": "lex-geometrie-dreieck-noun"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Eine ebene Form mit vier gleich langen Seiten und vier rechten Winkeln. Das Quadrat hat vier gleich lange Seiten.",
+      "helpEsLatam": {
+        "meaning": "cuadrado",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-shape-quadrat"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-shape-rechteck-p2w",
+      "targetEntryId": "lex-geometrie-rechteck-noun",
+      "categoryId": "geometrie",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-shape-rechteck"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "das Rechteck",
+          "senseEntryId": "lex-geometrie-rechteck-noun"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "das Dreieck",
+          "senseEntryId": "lex-geometrie-dreieck-noun"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "der Würfel",
+          "senseEntryId": "lex-geometrie-wuerfel-noun"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Eine ebene Form mit vier rechten Winkeln. Die Karte ist ein Rechteck.",
+      "helpEsLatam": {
+        "meaning": "rectángulo (incluye cuadrados)",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-shape-rechteck"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-shape-rechteck-w2s",
+      "targetEntryId": "lex-geometrie-rechteck-noun",
+      "categoryId": "geometrie",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "das Rechteck"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-shape-rechteck",
+          "senseEntryId": "lex-geometrie-rechteck-noun"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-shape-dreieck",
+          "senseEntryId": "lex-geometrie-dreieck-noun"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-shape-würfel",
+          "senseEntryId": "lex-geometrie-wuerfel-noun"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Eine ebene Form mit vier rechten Winkeln. Die Karte ist ein Rechteck.",
+      "helpEsLatam": {
+        "meaning": "rectángulo (incluye cuadrados)",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-shape-rechteck"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-shape-würfel-p2w",
+      "targetEntryId": "lex-geometrie-wuerfel-noun",
+      "categoryId": "geometrie",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-shape-würfel"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "der Würfel",
+          "senseEntryId": "lex-geometrie-wuerfel-noun"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "die Kugel",
+          "senseEntryId": "lex-geometrie-kugel-noun"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "der Kreis",
+          "senseEntryId": "lex-geometrie-kreis-noun"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Ein Körper mit sechs gleich großen quadratischen Flächen. Der Würfel hat sechs Flächen.",
+      "helpEsLatam": {
+        "meaning": "cubo (cuerpo geométrico)",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-shape-würfel"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-shape-würfel-w2s",
+      "targetEntryId": "lex-geometrie-wuerfel-noun",
+      "categoryId": "geometrie",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "der Würfel"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-shape-würfel",
+          "senseEntryId": "lex-geometrie-wuerfel-noun"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-shape-kugel",
+          "senseEntryId": "lex-geometrie-kugel-noun"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-shape-kreis",
+          "senseEntryId": "lex-geometrie-kreis-noun"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Ein Körper mit sechs gleich großen quadratischen Flächen. Der Würfel hat sechs Flächen.",
+      "helpEsLatam": {
+        "meaning": "cubo (cuerpo geométrico)",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-shape-würfel"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-shape-kugel-p2w",
+      "targetEntryId": "lex-geometrie-kugel-noun",
+      "categoryId": "geometrie",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-shape-kugel"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "die Kugel",
+          "senseEntryId": "lex-geometrie-kugel-noun"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "der Würfel",
+          "senseEntryId": "lex-geometrie-wuerfel-noun"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "der Kreis",
+          "senseEntryId": "lex-geometrie-kreis-noun"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Ein rundum runder Körper ohne Ecken und Kanten. Der Ball hat die Form einer Kugel.",
+      "helpEsLatam": {
+        "meaning": "esfera",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-shape-kugel"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-shape-kugel-w2s",
+      "targetEntryId": "lex-geometrie-kugel-noun",
+      "categoryId": "geometrie",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "die Kugel"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-shape-kugel",
+          "senseEntryId": "lex-geometrie-kugel-noun"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-shape-würfel",
+          "senseEntryId": "lex-geometrie-wuerfel-noun"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-shape-kreis",
+          "senseEntryId": "lex-geometrie-kreis-noun"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Ein rundum runder Körper ohne Ecken und Kanten. Der Ball hat die Form einer Kugel.",
+      "helpEsLatam": {
+        "meaning": "esfera",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-shape-kugel"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-spatial-auf-p2w",
+      "targetEntryId": "lex-beziehungen-static-on-surface",
+      "categoryId": "beziehungen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-spatial-auf"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "auf",
+          "senseEntryId": "lex-beziehungen-static-on-surface"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "neben",
+          "senseEntryId": "lex-beziehungen-static-next-to"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "vor",
+          "senseEntryId": "lex-beziehungen-spatial-front"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Etwas liegt höher und berührt die obere Fläche eines anderen Dings. Das Buch liegt auf dem Tisch.",
+      "helpEsLatam": {
+        "meaning": "sobre / encima de (con contacto; ubicación)",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-spatial-auf"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-spatial-auf-w2s",
+      "targetEntryId": "lex-beziehungen-static-on-surface",
+      "categoryId": "beziehungen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "auf"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-spatial-auf",
+          "senseEntryId": "lex-beziehungen-static-on-surface"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-spatial-neben",
+          "senseEntryId": "lex-beziehungen-static-next-to"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-spatial-vor",
+          "senseEntryId": "lex-beziehungen-spatial-front"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Etwas liegt höher und berührt die obere Fläche eines anderen Dings. Das Buch liegt auf dem Tisch.",
+      "helpEsLatam": {
+        "meaning": "sobre / encima de (con contacto; ubicación)",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-spatial-auf"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-spatial-unter-p2w",
+      "targetEntryId": "lex-beziehungen-static-below",
+      "categoryId": "beziehungen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-spatial-unter"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "unter",
+          "senseEntryId": "lex-beziehungen-static-below"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "in",
+          "senseEntryId": "lex-beziehungen-static-inside"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "neben",
+          "senseEntryId": "lex-beziehungen-static-next-to"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Etwas befindet sich tiefer als ein anderes Ding. Der Ball liegt unter dem Tisch.",
+      "helpEsLatam": {
+        "meaning": "debajo de (ubicación)",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-spatial-unter"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-spatial-unter-w2s",
+      "targetEntryId": "lex-beziehungen-static-below",
+      "categoryId": "beziehungen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "unter"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-spatial-unter",
+          "senseEntryId": "lex-beziehungen-static-below"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-spatial-in",
+          "senseEntryId": "lex-beziehungen-static-inside"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-spatial-neben",
+          "senseEntryId": "lex-beziehungen-static-next-to"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Etwas befindet sich tiefer als ein anderes Ding. Der Ball liegt unter dem Tisch.",
+      "helpEsLatam": {
+        "meaning": "debajo de (ubicación)",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-spatial-unter"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-spatial-neben-p2w",
+      "targetEntryId": "lex-beziehungen-static-next-to",
+      "categoryId": "beziehungen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-spatial-neben"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "neben",
+          "senseEntryId": "lex-beziehungen-static-next-to"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "auf",
+          "senseEntryId": "lex-beziehungen-static-on-surface"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "unter",
+          "senseEntryId": "lex-beziehungen-static-below"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Etwas befindet sich seitlich dicht bei etwas anderem. Der Stuhl steht neben dem Tisch.",
+      "helpEsLatam": {
+        "meaning": "al lado de (ubicación)",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-spatial-neben"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-spatial-neben-w2s",
+      "targetEntryId": "lex-beziehungen-static-next-to",
+      "categoryId": "beziehungen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "neben"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-spatial-neben",
+          "senseEntryId": "lex-beziehungen-static-next-to"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-spatial-auf",
+          "senseEntryId": "lex-beziehungen-static-on-surface"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-spatial-unter",
+          "senseEntryId": "lex-beziehungen-static-below"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Etwas befindet sich seitlich dicht bei etwas anderem. Der Stuhl steht neben dem Tisch.",
+      "helpEsLatam": {
+        "meaning": "al lado de (ubicación)",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-spatial-neben"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-spatial-in-p2w",
+      "targetEntryId": "lex-beziehungen-static-inside",
+      "categoryId": "beziehungen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-spatial-in"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "in",
+          "senseEntryId": "lex-beziehungen-static-inside"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "unter",
+          "senseEntryId": "lex-beziehungen-static-below"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "vor",
+          "senseEntryId": "lex-beziehungen-spatial-front"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Etwas befindet sich innerhalb eines Behälters oder Raums. Der Ball liegt in der Kiste.",
+      "helpEsLatam": {
+        "meaning": "en / dentro de (ubicación)",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-spatial-in"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-spatial-in-w2s",
+      "targetEntryId": "lex-beziehungen-static-inside",
+      "categoryId": "beziehungen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "in"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-spatial-in",
+          "senseEntryId": "lex-beziehungen-static-inside"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-spatial-unter",
+          "senseEntryId": "lex-beziehungen-static-below"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-spatial-vor",
+          "senseEntryId": "lex-beziehungen-spatial-front"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Etwas befindet sich innerhalb eines Behälters oder Raums. Der Ball liegt in der Kiste.",
+      "helpEsLatam": {
+        "meaning": "en / dentro de (ubicación)",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-spatial-in"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-spatial-vor-p2w",
+      "targetEntryId": "lex-beziehungen-spatial-front",
+      "categoryId": "beziehungen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-spatial-vor"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "vor",
+          "senseEntryId": "lex-beziehungen-spatial-front"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "auf",
+          "senseEntryId": "lex-beziehungen-static-on-surface"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "in",
+          "senseEntryId": "lex-beziehungen-static-inside"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Etwas ist auf der Vorderseite eines anderen Dings. Der Baum steht vor dem Haus.",
+      "helpEsLatam": {
+        "meaning": "delante de (ubicación)",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-spatial-vor"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-spatial-vor-w2s",
+      "targetEntryId": "lex-beziehungen-spatial-front",
+      "categoryId": "beziehungen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "vor"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-spatial-vor",
+          "senseEntryId": "lex-beziehungen-spatial-front"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-spatial-auf",
+          "senseEntryId": "lex-beziehungen-static-on-surface"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-spatial-in",
+          "senseEntryId": "lex-beziehungen-static-inside"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Etwas ist auf der Vorderseite eines anderen Dings. Der Baum steht vor dem Haus.",
+      "helpEsLatam": {
+        "meaning": "delante de (ubicación)",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-spatial-vor"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-spatial-hinter-p2w",
+      "targetEntryId": "lex-beziehungen-spatial-behind",
+      "categoryId": "beziehungen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-spatial-hinter"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "hinter",
+          "senseEntryId": "lex-beziehungen-spatial-behind"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "auf",
+          "senseEntryId": "lex-beziehungen-static-on-surface"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "neben",
+          "senseEntryId": "lex-beziehungen-static-next-to"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Etwas ist auf der Rückseite eines anderen Dings. Der Baum steht hinter dem Haus.",
+      "helpEsLatam": {
+        "meaning": "detrás de (ubicación)",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-spatial-hinter"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-spatial-hinter-w2s",
+      "targetEntryId": "lex-beziehungen-spatial-behind",
+      "categoryId": "beziehungen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "hinter"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-spatial-hinter",
+          "senseEntryId": "lex-beziehungen-spatial-behind"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-spatial-auf",
+          "senseEntryId": "lex-beziehungen-static-on-surface"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-spatial-neben",
+          "senseEntryId": "lex-beziehungen-static-next-to"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Etwas ist auf der Rückseite eines anderen Dings. Der Baum steht hinter dem Haus.",
+      "helpEsLatam": {
+        "meaning": "detrás de (ubicación)",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-spatial-hinter"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-half-eight-p2w",
+      "targetEntryId": "lex-rechnen-haelfte-noun",
+      "categoryId": "rechnen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-half-eight",
+        "variant": {
+          "highlighted": 4
+        }
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "die Hälfte",
+          "senseEntryId": "lex-rechnen-haelfte-noun"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "plus",
+          "senseEntryId": "lex-rechnen-plus-particle"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "minus",
+          "senseEntryId": "lex-rechnen-minus-particle"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Einer von zwei gleich großen Teilen eines Ganzen. Mia isst eine Hälfte des Apfels.",
+      "helpEsLatam": {
+        "meaning": "mitad",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-half-eight"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-half-eight-w2s",
+      "targetEntryId": "lex-rechnen-haelfte-noun",
+      "categoryId": "rechnen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "die Hälfte"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-half-eight",
+          "variant": {
+            "highlighted": 4
+          },
+          "senseEntryId": "lex-rechnen-haelfte-noun"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-half-eight",
+          "variant": {
+            "highlighted": 3
+          },
+          "senseEntryId": null
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-half-eight",
+          "variant": {
+            "highlighted": 6
+          },
+          "senseEntryId": null
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Einer von zwei gleich großen Teilen eines Ganzen. Mia isst eine Hälfte des Apfels.",
+      "helpEsLatam": {
+        "meaning": "mitad",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-half-eight"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-table-grid-p2w",
+      "targetEntryId": "lex-daten-tabelle-noun",
+      "categoryId": "daten",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-table-grid"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "die Tabelle",
+          "senseEntryId": "lex-daten-tabelle-noun"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "die Zeile",
+          "senseEntryId": "lex-daten-zeile-noun"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "die Spalte",
+          "senseEntryId": "lex-daten-spalte-noun"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Daten stehen geordnet in Zeilen und Spalten. Die Tabelle zeigt die Punkte.",
+      "helpEsLatam": {
+        "meaning": "tabla de datos",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-table-grid"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-table-grid-w2s",
+      "targetEntryId": "lex-daten-tabelle-noun",
+      "categoryId": "daten",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "die Tabelle"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-table-grid",
+          "senseEntryId": "lex-daten-tabelle-noun"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-count-5",
+          "senseEntryId": "lex-zahlen-fuenf-numeral"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-swatch-rot",
+          "senseEntryId": "lex-merkmale-rot-adjective"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Daten stehen geordnet in Zeilen und Spalten. Die Tabelle zeigt die Punkte.",
+      "helpEsLatam": {
+        "meaning": "tabla de datos",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-table-grid"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-object-apfel-p2w",
+      "targetEntryId": "lex-essen-apfel-noun",
+      "categoryId": "essen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-object-apfel"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "der Apfel",
+          "senseEntryId": "lex-essen-apfel-noun"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "die Ziege",
+          "senseEntryId": "lex-tiere-ziege-noun"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "das Schiff",
+          "senseEntryId": "lex-verkehr-schiff-noun"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Eine runde Frucht vom Baum, oft rot oder grün. Mia isst einen Apfel.",
+      "helpEsLatam": {
+        "meaning": "manzana",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-object-apfel"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-object-apfel-w2s",
+      "targetEntryId": "lex-essen-apfel-noun",
+      "categoryId": "essen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "der Apfel"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-object-apfel",
+          "senseEntryId": "lex-essen-apfel-noun"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-object-ziege",
+          "senseEntryId": "lex-tiere-ziege-noun"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-object-schiff",
+          "senseEntryId": "lex-verkehr-schiff-noun"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Eine runde Frucht vom Baum, oft rot oder grün. Mia isst einen Apfel.",
+      "helpEsLatam": {
+        "meaning": "manzana",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-object-apfel"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-object-heft-p2w",
+      "targetEntryId": "lex-schule-heft-noun",
+      "categoryId": "schule",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-object-heft"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "das Heft",
+          "senseEntryId": "lex-schule-heft-noun"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "die Ziege",
+          "senseEntryId": "lex-tiere-ziege-noun"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "der Reis",
+          "senseEntryId": "lex-essen-reis-noun"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Gebundene Blätter für deine eigenen Schulaufgaben. Mia löst Aufgaben im Heft.",
+      "helpEsLatam": {
+        "meaning": "cuaderno",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-object-heft"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-object-heft-w2s",
+      "targetEntryId": "lex-schule-heft-noun",
+      "categoryId": "schule",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "das Heft"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-object-heft",
+          "senseEntryId": "lex-schule-heft-noun"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-object-ziege",
+          "senseEntryId": "lex-tiere-ziege-noun"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-object-reis",
+          "senseEntryId": "lex-essen-reis-noun"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Gebundene Blätter für deine eigenen Schulaufgaben. Mia löst Aufgaben im Heft.",
+      "helpEsLatam": {
+        "meaning": "cuaderno",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-object-heft"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-object-buch-p2w",
+      "targetEntryId": "lex-schule-buch-noun",
+      "categoryId": "schule",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-object-buch"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "das Buch",
+          "senseEntryId": "lex-schule-buch-noun"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "das Fahrrad",
+          "senseEntryId": "lex-verkehr-fahrrad-noun"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "die Ziege",
+          "senseEntryId": "lex-tiere-ziege-noun"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Viele gebundene Seiten mit Texten oder Bildern zum Lesen. Das Buch erzählt von einem Drachen.",
+      "helpEsLatam": {
+        "meaning": "libro",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-object-buch"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-object-buch-w2s",
+      "targetEntryId": "lex-schule-buch-noun",
+      "categoryId": "schule",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "das Buch"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-object-buch",
+          "senseEntryId": "lex-schule-buch-noun"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-object-fahrrad",
+          "senseEntryId": "lex-verkehr-fahrrad-noun"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-object-ziege",
+          "senseEntryId": "lex-tiere-ziege-noun"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Viele gebundene Seiten mit Texten oder Bildern zum Lesen. Das Buch erzählt von einem Drachen.",
+      "helpEsLatam": {
+        "meaning": "libro",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-object-buch"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-object-reis-p2w",
+      "targetEntryId": "lex-essen-reis-noun",
+      "categoryId": "essen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-object-reis"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "der Reis",
+          "senseEntryId": "lex-essen-reis-noun"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "das Heft",
+          "senseEntryId": "lex-schule-heft-noun"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "die Hand",
+          "senseEntryId": "lex-koerper-hand-noun"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Kleine Körner, die du meist gekocht isst. Mia isst Reis.",
+      "helpEsLatam": {
+        "meaning": "arroz",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-object-reis"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-object-reis-w2s",
+      "targetEntryId": "lex-essen-reis-noun",
+      "categoryId": "essen",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "der Reis"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-object-reis",
+          "senseEntryId": "lex-essen-reis-noun"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-object-heft",
+          "senseEntryId": "lex-schule-heft-noun"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-object-hand",
+          "senseEntryId": "lex-koerper-hand-noun"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Kleine Körner, die du meist gekocht isst. Mia isst Reis.",
+      "helpEsLatam": {
+        "meaning": "arroz",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-object-reis"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-object-ziege-p2w",
+      "targetEntryId": "lex-tiere-ziege-noun",
+      "categoryId": "tiere",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-object-ziege"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "die Ziege",
+          "senseEntryId": "lex-tiere-ziege-noun"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "das Heft",
+          "senseEntryId": "lex-schule-heft-noun"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "der Apfel",
+          "senseEntryId": "lex-essen-apfel-noun"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Ein Tier mit Hufen, oft mit Hörnern und Bart, das meckert. Die Ziege meckert.",
+      "helpEsLatam": {
+        "meaning": "cabra",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-object-ziege"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-object-ziege-w2s",
+      "targetEntryId": "lex-tiere-ziege-noun",
+      "categoryId": "tiere",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "die Ziege"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-object-ziege",
+          "senseEntryId": "lex-tiere-ziege-noun"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-object-heft",
+          "senseEntryId": "lex-schule-heft-noun"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-object-apfel",
+          "senseEntryId": "lex-essen-apfel-noun"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Ein Tier mit Hufen, oft mit Hörnern und Bart, das meckert. Die Ziege meckert.",
+      "helpEsLatam": {
+        "meaning": "cabra",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-object-ziege"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-object-ohr-p2w",
+      "targetEntryId": "lex-koerper-ohr-noun",
+      "categoryId": "koerper",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-object-ohr"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "das Ohr",
+          "senseEntryId": "lex-koerper-ohr-noun"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "der Apfel",
+          "senseEntryId": "lex-essen-apfel-noun"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "das Heft",
+          "senseEntryId": "lex-schule-heft-noun"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Mit diesem Körperteil kannst du hören. Das Ohr hilft beim Hören.",
+      "helpEsLatam": {
+        "meaning": "oreja / oído",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-object-ohr"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-object-ohr-w2s",
+      "targetEntryId": "lex-koerper-ohr-noun",
+      "categoryId": "koerper",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "das Ohr"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-object-ohr",
+          "senseEntryId": "lex-koerper-ohr-noun"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-object-apfel",
+          "senseEntryId": "lex-essen-apfel-noun"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-object-heft",
+          "senseEntryId": "lex-schule-heft-noun"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Mit diesem Körperteil kannst du hören. Das Ohr hilft beim Hören.",
+      "helpEsLatam": {
+        "meaning": "oreja / oído",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-object-ohr"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-object-hand-p2w",
+      "targetEntryId": "lex-koerper-hand-noun",
+      "categoryId": "koerper",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-object-hand"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "die Hand",
+          "senseEntryId": "lex-koerper-hand-noun"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "das Schiff",
+          "senseEntryId": "lex-verkehr-schiff-noun"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "das Buch",
+          "senseEntryId": "lex-schule-buch-noun"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "An ihr sitzen fünf Finger. Die Hand hält den Stift.",
+      "helpEsLatam": {
+        "meaning": "mano",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-object-hand"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-object-hand-w2s",
+      "targetEntryId": "lex-koerper-hand-noun",
+      "categoryId": "koerper",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "die Hand"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-object-hand",
+          "senseEntryId": "lex-koerper-hand-noun"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-object-schiff",
+          "senseEntryId": "lex-verkehr-schiff-noun"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-object-buch",
+          "senseEntryId": "lex-schule-buch-noun"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "An ihr sitzen fünf Finger. Die Hand hält den Stift.",
+      "helpEsLatam": {
+        "meaning": "mano",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-object-hand"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-object-regenschirm-p2w",
+      "targetEntryId": "lex-wetter-regenschirm-noun",
+      "categoryId": "wetter",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-object-regenschirm"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "der Regenschirm",
+          "senseEntryId": "lex-wetter-regenschirm-noun"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "das Schiff",
+          "senseEntryId": "lex-verkehr-schiff-noun"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "der Apfel",
+          "senseEntryId": "lex-essen-apfel-noun"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Du hältst ihn über dich, damit Regen dich nicht trifft. Ben öffnet den Regenschirm.",
+      "helpEsLatam": {
+        "meaning": "paraguas",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-object-regenschirm"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-object-regenschirm-w2s",
+      "targetEntryId": "lex-wetter-regenschirm-noun",
+      "categoryId": "wetter",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "der Regenschirm"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-object-regenschirm",
+          "senseEntryId": "lex-wetter-regenschirm-noun"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-object-schiff",
+          "senseEntryId": "lex-verkehr-schiff-noun"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-object-apfel",
+          "senseEntryId": "lex-essen-apfel-noun"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Du hältst ihn über dich, damit Regen dich nicht trifft. Ben öffnet den Regenschirm.",
+      "helpEsLatam": {
+        "meaning": "paraguas",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-object-regenschirm"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-object-fahrrad-p2w",
+      "targetEntryId": "lex-verkehr-fahrrad-noun",
+      "categoryId": "verkehr",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-object-fahrrad"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "das Fahrrad",
+          "senseEntryId": "lex-verkehr-fahrrad-noun"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "das Buch",
+          "senseEntryId": "lex-schule-buch-noun"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "das Schiff",
+          "senseEntryId": "lex-verkehr-schiff-noun"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Ein Fahrzeug mit zwei Rädern und Pedalen. Mia fährt Fahrrad.",
+      "helpEsLatam": {
+        "meaning": "bicicleta",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-object-fahrrad"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-object-fahrrad-w2s",
+      "targetEntryId": "lex-verkehr-fahrrad-noun",
+      "categoryId": "verkehr",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "das Fahrrad"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-object-fahrrad",
+          "senseEntryId": "lex-verkehr-fahrrad-noun"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-object-buch",
+          "senseEntryId": "lex-schule-buch-noun"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-object-schiff",
+          "senseEntryId": "lex-verkehr-schiff-noun"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Ein Fahrzeug mit zwei Rädern und Pedalen. Mia fährt Fahrrad.",
+      "helpEsLatam": {
+        "meaning": "bicicleta",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-object-fahrrad"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-object-schiff-p2w",
+      "targetEntryId": "lex-verkehr-schiff-noun",
+      "categoryId": "verkehr",
+      "level": "F",
+      "type": "single_select",
+      "mode": "picture_to_word",
+      "promptDe": "Welches Wort passt zum Bild?",
+      "stimulus": {
+        "kind": "scene",
+        "sceneId": "scene-object-schiff"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "textDe": "das Schiff",
+          "senseEntryId": "lex-verkehr-schiff-noun"
+        },
+        {
+          "id": "choice-2",
+          "textDe": "der Regenschirm",
+          "senseEntryId": "lex-wetter-regenschirm-noun"
+        },
+        {
+          "id": "choice-3",
+          "textDe": "der Apfel",
+          "senseEntryId": "lex-essen-apfel-noun"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Ein größeres Fahrzeug auf dem Wasser. Das Schiff fährt über das Meer.",
+      "helpEsLatam": {
+        "meaning": "barco",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-object-schiff"
+      },
+      "runtimeGenerated": true
+    },
+    {
+      "id": "q-img-scene-object-schiff-w2s",
+      "targetEntryId": "lex-verkehr-schiff-noun",
+      "categoryId": "verkehr",
+      "level": "F",
+      "type": "single_select",
+      "mode": "word_to_scene",
+      "promptDe": "Welches Bild passt?",
+      "stimulus": {
+        "kind": "text",
+        "textDe": "das Schiff"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "sceneId": "scene-object-schiff",
+          "senseEntryId": "lex-verkehr-schiff-noun"
+        },
+        {
+          "id": "choice-2",
+          "sceneId": "scene-object-regenschirm",
+          "senseEntryId": "lex-wetter-regenschirm-noun"
+        },
+        {
+          "id": "choice-3",
+          "sceneId": "scene-object-apfel",
+          "senseEntryId": "lex-essen-apfel-noun"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "explanationDe": "Ein größeres Fahrzeug auf dem Wasser. Das Schiff fährt über das Meer.",
+      "helpEsLatam": {
+        "meaning": "barco",
+        "instruction": "Elige la palabra correcta.",
+        "revealPolicy": "explicit_request_only",
+        "marksAssisted": true
+      },
+      "requirements": {
+        "mediaRequired": true,
+        "audioRequired": false,
+        "typingRequired": false
+      },
+      "scoring": {
+        "firstAttemptOnly": true,
+        "translationOrAnswerHintMeansAssisted": true,
+        "correctionDoesNotEraseError": true,
+        "notAProficiencyCertificate": true
+      },
+      "sourceIds": [
+        "SCENE_CONTRACT_F"
+      ],
+      "review": {
+        "status": "runtime_scene_authored",
+        "sceneId": "scene-object-schiff"
+      },
+      "runtimeGenerated": true
+    }
+  ]
+}

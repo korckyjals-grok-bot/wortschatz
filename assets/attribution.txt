@@ -1,0 +1,17 @@
+Wortschatz runtime assets — attribution
+=======================================
+Date: 2026-11-08 America/El_Salvador (UTC−6)
+
+All SVG scene illustrations are original works created for this family learning
+app and rendered by assets/js/scenes.js from the F scene contracts. No third-party
+stock photographs, worksheet screenshots, or external image hotlinks are used.
+
+Fonts: system UI stacks only (no external font CDN).
+
+Content lexicon/questions: curated F/C/P package (editorial + selected dictionary
+checks). Not an official Escuela Alemana word list and not a Goethe/ZfA
+certification claim. Source URLs for consulted pages live in data/source_registry_*.json.
+
+License for original SVG/renderer code in this folder: family use / publication
+as approved by the family publisher workflow. Do not republish copyrighted
+curriculum lists wholesale.

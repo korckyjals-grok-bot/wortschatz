@@ -1,0 +1,1180 @@
+{
+  "schemaVersion": "1.1.0",
+  "contentVersion": "1.2.0-FCP",
+  "sources": [
+    {
+      "id": "LOCAL_CURRENT",
+      "title": "Escuela Alemana San Salvador, Sobre nosotros",
+      "url": "https://ds.edu.sv/index.php?page=sobre-nosotros",
+      "access": "Full public page opened. Current routed site; page contains board 2025–2026.",
+      "evidence": "“Una en 4° grado A1.” School verifies a grade-4 A1 checkpoint, not an exhaustive receptive vocabulary list, nor that this child has that proficiency.",
+      "evidenceStatus": "primary_source_opened",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "LOCAL_PRIMARY_INDEX",
+      "title": "Escuela Alemana, Primaria (legacy indexed page)",
+      "url": "https://ds.edu.sv/primaria/",
+      "access": "Search-index excerpt only. WebFetch 404; public requests fallback 406. Do not present as retrieved current curriculum.",
+      "evidence": "Primaria 1–4; German-medium Deutsch, Mathematik, Sachkunde, Kunst, Motorik, Freiarbeit, Deutsch.Labor. Indexed German version: https://ds.edu.sv/de/primaria/.",
+      "evidenceStatus": "historical_search_index_only",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "LOCAL_G1_INDEX",
+      "title": "Temario 2023/24 grado 1 (historical indexed document)",
+      "url": "https://ds.edu.sv/?download_id=2604&sdm_process_download=1",
+      "access": "Search-index excerpt, not recovered PDF; public fallback returned 406. Historical, not 2026 binding requirements.",
+      "evidence": "Schule; Familie/Zuhause; Lebensmittel; Feste; Mein Körper; Kleidung. Maths: left/right, comparing, shapes, money/time. Sachunterricht: plants/animals, body, air, light/shadow, construction, time.",
+      "evidenceStatus": "historical_search_index_only",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "LOCAL_G2_INDEX",
+      "title": "Temario grado 2 (historical indexed document)",
+      "url": "https://ds.edu.sv/?download_id=2625&sdm_process_download=1",
+      "access": "Search-index excerpt only; public fallback 406. Small excerpt; do not extrapolate full syllabus.",
+      "evidence": "Familie und Freunde; numbers to 100; Geobrett; Die Zeit vergeht; Das Wetter.",
+      "evidenceStatus": "historical_search_index_only",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "LOCAL_G3_INDEX",
+      "title": "Temario 2023/24 grado 3 (historical indexed document)",
+      "url": "https://ds.edu.sv/?download_id=2626&smd_process_download=1",
+      "access": "Search-index excerpt. WebFetch now returns new-site homepage, not curriculum; fallback 406. Note original URL spelling smd, do not silently alter.",
+      "evidence": "Deutsch: Schule, Körper/Gesundheit, Lektüre, Mein Jahr, Feste, Haus, Tiere. Maths: to 1000, operations, symmetry, word problems, shapes/solids, lengths/time. Sachkunde: classroom rules, forest animals, nutrition, speed, water/sea, maps, water cycle, media.",
+      "evidenceStatus": "historical_search_index_only",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "ZFA",
+      "title": "ZfA Rahmenplan Deutsch als Fremdsprache für das Auslandsschulwesen",
+      "url": "https://www.auslandsschulwesen.de/resource/blob/2789274/febe196fc6737e2f3dc86448e997cceb/daf-rahmenplan-data.pdf",
+      "access": "PDF downloaded HTTP 200; pdftotext; sections 3.2.3 printed p26, 3.4.1 p30 read; first educational phase A1 p15.",
+      "evidence": "“hinreichend großen Grundwortschatz”; “das Unterrichtsgespräch”. Themes include family, routines, food/drink, home, school subjects, transport, shopping, festivities. This is a framework schools fill locally; Bildungsabschnitt is NOT a grade number.",
+      "evidenceStatus": "primary_source_opened",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "ZFA_IVA",
+      "title": "ZfA Internationale schulische Vergleichsarbeiten",
+      "url": "https://www.auslandsschulwesen.de/zfa-de/deutsch-lernen/deutsch-als-fremdsprache-daf-/internationale-schulische-vergleichsarbeiten",
+      "access": "Full public page opened.",
+      "evidence": "IVA1: ages 9–10, grades 3/4, A1; reading/listening/writing/speaking. Supports age-appropriate A1 reference, NOT claim this school specifically administers IVA1. Protected tests not accessed.",
+      "evidenceStatus": "primary_source_opened",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "GOETHE_A1",
+      "title": "Goethe-Zertifikat A1 Fit in Deutsch 1 Wortliste, 2024 2nd ed.",
+      "url": "https://www.goethe.de/pro/relaunch/prf/de/Goethe-Zertifikat_A1_Fit1_Wortliste.pdf",
+      "access": "PDF downloaded HTTP 200, 415643 bytes; introduction/themes/groups and relevant alphabetical entries consulted.",
+      "evidence": "Printed pp4–8: about 650 entries, roughly half active; reference rather than ready-made teaching sequence; compounds excluded. Private/school/public communication. No native-speaker frequency selection. NOT an official list for this school. Teen-oriented items (e.g. disco) need age filtering.",
+      "evidenceStatus": "primary_source_opened",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "BAY_MATH",
+      "title": "Bayern LehrplanPLUS Mathematik 3/4",
+      "url": "https://www.lehrplanplus.bayern.de/fachlehrplan/grundschule/4/mathematik",
+      "access": "Full public subject curriculum opened.",
+      "evidence": "1.2 explicitly addieren, subtrahieren, multiplizieren, dividieren, Summe, Differenz; 2 geometry; 3 measurement; 4 tables/diagrams. Bavarian grade-3/4 subject reference, NOT evidence of local mandated number range or exact syllabus.",
+      "evidenceStatus": "primary_source_opened",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "BAY_HSU",
+      "title": "Bayern LehrplanPLUS Heimat- und Sachunterricht 3/4",
+      "url": "https://www.lehrplanplus.bayern.de/fachlehrplan/grundschule/4/hsu",
+      "access": "Full public subject curriculum opened. Legacy Jahrgangsstufenprofil URL now returned homepage and is not used as evidence.",
+      "evidence": "Society; body/health; living things/habitats; materials/energy; water cycle; time/change; maps/directions; mobility; tools/construction. Select vocabulary, not every Bavarian unit as a local exam requirement.",
+      "evidenceStatus": "primary_source_opened",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "BAY_DE",
+      "title": "Bayern LehrplanPLUS Deutsch 3/4",
+      "url": "https://www.lehrplanplus.bayern.de/fachlehrplan/grundschule/4/deutsch",
+      "access": "Full public subject curriculum opened.",
+      "evidence": "1.1 “fachspezifischer Bildungssprache”; 2.3 figures/places/action and comprehension of tables; 4.3 word families, compounds, nouns/adjectives/verbs, connectors. Source contains productive tasks; this project deliberately implements only recognition/comprehension.",
+      "evidenceStatus": "primary_source_opened",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "NRW_ORTH",
+      "title": "QUA-LiS NRW Grundwortschatz",
+      "url": "https://www.qua-lis.nrw.de/schulentwicklung/unterricht/sprache/grundwortschatz-nrw",
+      "access": "Full public page opened.",
+      "evidence": "533 words illustrate spelling phenomena; 422 Nachdenkwörter +111 Merkwörter, class-specific supplement about 200–300. NOT all words a fourth-grader understands. Exclude spelling/typing drills. NRW cliparts are licensed/restricted, not free assets to copy.",
+      "evidenceStatus": "primary_source_opened",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "SKU_LOCAL",
+      "title": "Previously verified 15-page Germany unit",
+      "url": "/workspace/micho/Sachkunde_Revision_202611081035/Cobertura_Sachkunde_202611081117.md",
+      "access": "Full internal coverage report read; upstream report says all 15 source pages visually verified. No claim to re-review scans this turn.",
+      "evidence": "Actual Jorgito unit: landscape, neighbors, countries vs states/capitals/cities, seas/lakes/rivers, spatial relations, timeline/history, monuments, comparison, instructions. P7 explicitly glosses vorher, Staat, wiedervereint, bestehen aus, dort, getrennt, hoch/höher/am höchsten. Do not transfer outdated population/political office holders into vocabulary questions.",
+      "evidenceStatus": "internal_verified_source_report",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "LIVE_GERMAN",
+      "title": "Existing German landing",
+      "url": "https://korckyjals-grok-bot.github.io/aleman/",
+      "access": "Public page opened.",
+      "evidence": "Existing zu + Dativ, gehen/fahren, Verkehrsmittel apps. New Wortschatz child hub must coexist; no replacement. This is integration context, not curriculum evidence.",
+      "evidenceStatus": "primary_source_opened",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_BUNDESLAND",
+      "title": "Duden: Bundesland",
+      "url": "https://www.duden.de/rechtschreibung/Bundesland",
+      "access": "Full public dictionary entry opened",
+      "evidence": "das; die Bundesländer; member state",
+      "evidenceStatus": "lexical_entry_opened",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_SEE_LAKE",
+      "title": "Duden: See",
+      "url": "https://www.duden.de/rechtschreibung/See_Binnengewaesser",
+      "access": "Full public dictionary entry opened",
+      "evidence": "der; die Seen; lake",
+      "evidenceStatus": "lexical_entry_opened",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_SEE_SEA",
+      "title": "Duden: See",
+      "url": "https://www.duden.de/rechtschreibung/See_Meer",
+      "access": "Full public dictionary entry opened",
+      "evidence": "die; maritime sea sense has no plural; separate wave sense does",
+      "evidenceStatus": "lexical_entry_opened",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_SUMME",
+      "title": "Duden: Summe",
+      "url": "https://www.duden.de/rechtschreibung/Summe",
+      "access": "Full public dictionary entry opened",
+      "evidence": "die; die Summen; addition result, sense 1",
+      "evidenceStatus": "lexical_entry_opened",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_HAELFTE",
+      "title": "Duden: Hälfte",
+      "url": "https://www.duden.de/rechtschreibung/Haelfte",
+      "access": "Full public dictionary entry opened",
+      "evidence": "die; die Hälften; one of two equal parts, sense a",
+      "evidenceStatus": "lexical_entry_opened",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_RECHTECK",
+      "title": "Duden: Rechteck",
+      "url": "https://www.duden.de/rechtschreibung/Rechteck",
+      "access": "Full public dictionary entry opened",
+      "evidence": "das; die Rechtecke; four right angles",
+      "evidenceStatus": "lexical_entry_opened",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_BEOBACHTEN",
+      "title": "Duden: beobachten",
+      "url": "https://www.duden.de/rechtschreibung/beobachten",
+      "access": "Full public dictionary entry opened",
+      "evidence": "beobachtet, beobachtete, hat beobachtet; carefully watch over time",
+      "evidenceStatus": "lexical_entry_opened",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_VERGLEICHEN",
+      "title": "Duden: vergleichen",
+      "url": "https://www.duden.de/rechtschreibung/vergleichen",
+      "access": "Full public dictionary entry opened",
+      "evidence": "vergleicht, verglich, hat verglichen; compare, sense 1a",
+      "evidenceStatus": "lexical_entry_opened",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_WEIL",
+      "title": "Duden: weil",
+      "url": "https://www.duden.de/rechtschreibung/weil",
+      "access": "Full public dictionary entry opened",
+      "evidence": "conjunction; gives reason; standard subordinate clause",
+      "evidenceStatus": "lexical_entry_opened",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_GESCHICHTE",
+      "title": "Duden: Geschichte",
+      "url": "https://www.duden.de/rechtschreibung/Geschichte",
+      "access": "Full public dictionary entry opened",
+      "evidence": "die; die Geschichten for narrative sense 2, not history mass sense",
+      "evidenceStatus": "lexical_entry_opened",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_F_ELTERN",
+      "title": "Duden: Eltern",
+      "url": "https://www.duden.de/rechtschreibung/Eltern",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during F production",
+      "evidence": "plural only; includes carers/adoptive parents",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_F_MAEDCHEN",
+      "title": "Duden: Mädchen",
+      "url": "https://www.duden.de/rechtschreibung/Maedchen",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during F production",
+      "evidence": "das Mädchen, plural Mädchen; child sense only",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_F_JUNGE",
+      "title": "Duden: Junge",
+      "url": "https://www.duden.de/rechtschreibung/Junge",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during F production",
+      "evidence": "der Junge; plural Jungen; child sense; Jungs recognized alternative not another entry",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_F_GEMUESE",
+      "title": "Duden: Gemüse",
+      "url": "https://www.duden.de/rechtschreibung/Gemuese",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during F production",
+      "evidence": "das Gemüse; everyday collective use here; die Gemüse exists for kinds",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_F_OBST",
+      "title": "Duden: Obst",
+      "url": "https://www.duden.de/rechtschreibung/Obst",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during F production",
+      "evidence": "das Obst, without plural",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_F_GELD",
+      "title": "Duden: Geld",
+      "url": "https://www.duden.de/rechtschreibung/Geld",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during F production",
+      "evidence": "das Geld, selected everyday money sense without plural; Gelder is a different funds sense",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_F_UHR",
+      "title": "Duden: Uhr",
+      "url": "https://www.duden.de/rechtschreibung/Uhr",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during F production",
+      "evidence": "die Uhr, plural Uhren; clock instrument sense",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_F_MITTE",
+      "title": "Duden: Mitte",
+      "url": "https://www.duden.de/rechtschreibung/Mitte",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during F production",
+      "evidence": "die Mitte, plural Mitten rare",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_F_GANZES",
+      "title": "Duden: Ganzes",
+      "url": "https://www.duden.de/rechtschreibung/Ganzes",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during F production",
+      "evidence": "nominalized adjective: das Ganze/ein Ganzes; no noun plural asserted in this bank",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_F_SCHWIMMEN",
+      "title": "Duden: schwimmen",
+      "url": "https://www.duden.de/rechtschreibung/schwimmen",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during F production",
+      "evidence": "sense 1 self-propelled swimming vs sense 4a floating on liquid",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador",
+      "reconsultations": [
+        {
+          "date": "2026-11-08",
+          "timezone": "America/El_Salvador",
+          "evidence": "Human self-propelled swimming 1a/1b versus passive floating 4a confirmed on the existing source page; no duplicated source ID."
+        }
+      ]
+    },
+    {
+      "id": "DUDEN_F_BLATT",
+      "title": "Duden: Blatt",
+      "url": "https://www.duden.de/rechtschreibung/Blatt",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during F production",
+      "evidence": "das Blatt; Blätter; plant organ vs paper sheet",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_F_SEITE",
+      "title": "Duden: Seite",
+      "url": "https://www.duden.de/rechtschreibung/Seite",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during F production",
+      "evidence": "die Seite; Seiten; geometric polygon edge vs book-page face",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_F_SPIELZEUG",
+      "title": "Duden: Spielzeug",
+      "url": "https://www.duden.de/rechtschreibung/Spielzeug",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during F production",
+      "evidence": "collective sense a without plural, not count sense Spielzeuge",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_F_UNTERRICHT",
+      "title": "Duden: Unterricht",
+      "url": "https://www.duden.de/rechtschreibung/Unterricht",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during F production",
+      "evidence": "der Unterricht; rare plural Unterrichte exists; ongoing instruction sense used singular here",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_F_EURO",
+      "title": "Duden: Euro",
+      "url": "https://www.duden.de/rechtschreibung/Euro_Waehrung",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during F production",
+      "evidence": "der Euro, plural Euros; amount form 10 Euro",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_F_DOLLAR",
+      "title": "Duden: Dollar",
+      "url": "https://www.duden.de/rechtschreibung/Dollar",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during F production",
+      "evidence": "der Dollar, plural Dollars; amount form 30 Dollar",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_F_KILOGRAMM",
+      "title": "Duden: Kilogramm",
+      "url": "https://www.duden.de/rechtschreibung/Kilogramm",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during F production",
+      "evidence": "das Kilogramm, plural Kilogramm or Kilogramme; unit of mass",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_F_LITER",
+      "title": "Duden: Liter",
+      "url": "https://www.duden.de/rechtschreibung/Liter",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during F production",
+      "evidence": "der Liter, also das Liter; plural Liter",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_F_METER",
+      "title": "Duden: Meter",
+      "url": "https://www.duden.de/rechtschreibung/Meter",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during F production",
+      "evidence": "der Meter, plural Meter",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_F_FREUDE",
+      "title": "Duden: Freude",
+      "url": "https://www.duden.de/rechtschreibung/Freude",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during F production",
+      "evidence": "emotional state sense 1 without plural; Freuden is different countable-joys sense",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_C_ERWACHSENER",
+      "title": "Duden: Erwachsener",
+      "url": "https://www.duden.de/rechtschreibung/Erwachsener",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened in F quality revision/C production",
+      "evidence": "der Erwachsene/ein Erwachsener; die Erwachsenen/zwei Erwachsene",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_C_JOGHURT",
+      "title": "Duden: Joghurt",
+      "url": "https://www.duden.de/rechtschreibung/Joghurt",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened in F quality revision/C production",
+      "evidence": "der oder das Joghurt; regional die; plural Joghurt/Joghurts",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_C_TRAUBE",
+      "title": "Duden: Traube",
+      "url": "https://www.duden.de/rechtschreibung/Traube",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened in F quality revision/C production",
+      "evidence": "die Traube; Trauben; fruit sense 2b, usually plural",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_C_ANANAS",
+      "title": "Duden: Ananas",
+      "url": "https://www.duden.de/rechtschreibung/Ananas",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened in F quality revision/C production",
+      "evidence": "die Ananas; plural Ananasse, Ananas; fruit sense 2",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_C_JANUAR",
+      "title": "Duden: Januar",
+      "url": "https://www.duden.de/rechtschreibung/Januar",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened in F quality revision/C production",
+      "evidence": "der Januar; plural Januare, rare",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_C_FEBRUAR",
+      "title": "Duden: Februar",
+      "url": "https://www.duden.de/rechtschreibung/Februar",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened in F quality revision/C production",
+      "evidence": "der Februar; plural Februare, rare",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_C_MAERZ",
+      "title": "Duden: März",
+      "url": "https://www.duden.de/rechtschreibung/Maerz",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened in F quality revision/C production",
+      "evidence": "der März; plural Märze, rare",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_C_APRIL",
+      "title": "Duden: April",
+      "url": "https://www.duden.de/rechtschreibung/April",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened in F quality revision/C production",
+      "evidence": "der April; plural Aprile, rare",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_C_MAI",
+      "title": "Duden: Mai",
+      "url": "https://www.duden.de/rechtschreibung/Mai",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened in F quality revision/C production",
+      "evidence": "der Mai; plural Maie, rare",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_C_JUNI",
+      "title": "Duden: Juni",
+      "url": "https://www.duden.de/rechtschreibung/Juni",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened in F quality revision/C production",
+      "evidence": "der Juni; plural Junis, rare",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_C_JULI",
+      "title": "Duden: Juli",
+      "url": "https://www.duden.de/rechtschreibung/Juli_Monat",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened in F quality revision/C production",
+      "evidence": "der Juli; plural Julis, rare",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_C_AUGUST",
+      "title": "Duden: August",
+      "url": "https://www.duden.de/rechtschreibung/August_Monat",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened in F quality revision/C production",
+      "evidence": "der August; plural Auguste, rare",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_C_SEPTEMBER",
+      "title": "Duden: September",
+      "url": "https://www.duden.de/rechtschreibung/September",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened in F quality revision/C production",
+      "evidence": "der September; plural September",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_C_OKTOBER",
+      "title": "Duden: Oktober",
+      "url": "https://www.duden.de/rechtschreibung/Oktober",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened in F quality revision/C production",
+      "evidence": "der Oktober; plural Oktober",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_C_NOVEMBER",
+      "title": "Duden: November",
+      "url": "https://www.duden.de/rechtschreibung/November",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened in F quality revision/C production",
+      "evidence": "der November; plural November",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_C_DEZEMBER",
+      "title": "Duden: Dezember",
+      "url": "https://www.duden.de/rechtschreibung/Dezember",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened in F quality revision/C production",
+      "evidence": "der Dezember; plural Dezember, rare",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_C_BANK_FINANCE",
+      "title": "Duden: Bank-finance",
+      "url": "https://www.duden.de/rechtschreibung/Bank_Geldinstitut",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened in F quality revision/C production",
+      "evidence": "die Bank; plural Banken; financial institution sense 1a",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_C_BANK_BENCH",
+      "title": "Duden: Bank-bench",
+      "url": "https://www.duden.de/rechtschreibung/Bank_Sitzgelegenheit",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened in F quality revision/C production",
+      "evidence": "die Bank; plural Bänke; seat sense 1a",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_C_DAUER",
+      "title": "Duden: Dauer",
+      "url": "https://www.duden.de/rechtschreibung/Dauer",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened in F quality revision/C production",
+      "evidence": "die Dauer; technical plural Dauern; time span sense 1",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_C_MANGO",
+      "title": "Duden: Mango",
+      "url": "https://www.duden.de/rechtschreibung/Mango",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened in F quality revision/C production",
+      "evidence": "die Mango; plural Mangos, rare Mangonen",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_C_PAPAYA",
+      "title": "Duden: Papaya",
+      "url": "https://www.duden.de/rechtschreibung/Papaya",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened in F quality revision/C production",
+      "evidence": "die Papaya; plural Papayas; fruit sense 2",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_C_GLAS",
+      "title": "Duden: Glas",
+      "url": "https://www.duden.de/rechtschreibung/Glas_Material",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened in F quality revision/C production",
+      "evidence": "das Glas; plural Gläser; material sense 1 plural rare",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_C_PRONOMEN",
+      "title": "Duden: Pronomen",
+      "url": "https://www.duden.de/rechtschreibung/Pronomen",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened in F quality revision/C production",
+      "evidence": "das Pronomen; plural Pronomen and Pronomina",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_C_EL_SALVADOR",
+      "title": "Duden: El Salvador",
+      "url": "https://www.duden.de/rechtschreibung/El_Salvador",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened in F quality revision/C production",
+      "evidence": "Substantiv, Neutrum (Eigenname); Genitiv El Salvadors",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_C_DEUTSCHLAND",
+      "title": "Duden: Deutschland",
+      "url": "https://www.duden.de/rechtschreibung/Deutschland",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened in F quality revision/C production",
+      "evidence": "Substantiv, Neutrum (Eigenname); Genitiv Deutschlands",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_C_KARTON",
+      "title": "Duden: Karton",
+      "url": "https://www.duden.de/rechtschreibung/Karton",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened in F quality revision/C production",
+      "evidence": "der Karton; plural Kartons, Kartone; material sense 1 vs box sense 2",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_C_UNENTSCHIEDEN",
+      "title": "Duden: Unentschieden",
+      "url": "https://www.duden.de/rechtschreibung/Unentschieden",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened in F quality revision/C production",
+      "evidence": "das Unentschieden; plural Unentschieden",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_C_NOMEN",
+      "title": "Duden: Nomen",
+      "url": "https://www.duden.de/rechtschreibung/Nomen",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened in F quality revision/C production",
+      "evidence": "das Nomen; plural Nomen and Nomina; noun sense 1",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_C_BRUST",
+      "title": "Duden: Brust",
+      "url": "https://www.duden.de/rechtschreibung/Brust_Koerperteil",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened in F quality revision/C production",
+      "evidence": "chest sense 1a without plural; Brüste belongs to breast sense 2",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_C_STREIT",
+      "title": "Duden: Streit",
+      "url": "https://www.duden.de/rechtschreibung/Streit",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened in F quality revision/C production",
+      "evidence": "der Streit; plural Streite, rare",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_C_KAKTUS",
+      "title": "Duden: Kaktus",
+      "url": "https://www.duden.de/rechtschreibung/Kaktus",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened in F quality revision/C production",
+      "evidence": "der Kaktus; plural Kakteen; colloquial Kaktusse",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_C_GLOBUS",
+      "title": "Duden: Globus",
+      "url": "https://www.duden.de/rechtschreibung/Globus",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened in F quality revision/C production",
+      "evidence": "der Globus; plural Globen, Globusse; Earth model sense 1a",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_C_VERDUNSTEN",
+      "title": "Duden: verdunsten",
+      "url": "https://www.duden.de/rechtschreibung/verdunsten",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened in F quality revision/C production",
+      "evidence": "sense a: allmählich in einen gasförmigen Aggregatzustand übergehen",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    },
+    {
+      "id": "DUDEN_P_LAUFEN",
+      "title": "Duden: laufen",
+      "url": "https://www.duden.de/rechtschreibung/laufen",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during P production",
+      "evidence": "human running sense 1a vs colloquial walking senses 1b/1c; läuft/lief/gelaufen; do not use gehen as exclusive false alternative",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador",
+      "useStatus": "attached_to_selected_entries"
+    },
+    {
+      "id": "DUDEN_P_MODELL",
+      "title": "Duden: Modell",
+      "url": "https://www.duden.de/rechtschreibung/Modell",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during P production",
+      "evidence": "das Modell; Modelle; selected physical scale representation sense 1a, not every abstract model or design",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador",
+      "useStatus": "attached_to_selected_entries"
+    },
+    {
+      "id": "DUDEN_P_PROZENT",
+      "title": "Duden: Prozent",
+      "url": "https://www.duden.de/rechtschreibung/Prozent",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during P production",
+      "evidence": "das Prozent; plural Prozente; amount 5 Prozent; candidate deferred, NOT a new corpus entry",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador",
+      "useStatus": "candidate_deferred_not_a_bank_entry"
+    },
+    {
+      "id": "DUDEN_P_DEZIMALZAHL",
+      "title": "Duden: Dezimalzahl",
+      "url": "https://www.duden.de/rechtschreibung/Dezimalzahl",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during P production",
+      "evidence": "die Dezimalzahl; Dezimalzahlen; fractional positions right of comma",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador",
+      "useStatus": "attached_to_selected_entries"
+    },
+    {
+      "id": "DUDEN_P_RADIUS",
+      "title": "Duden: Radius",
+      "url": "https://www.duden.de/rechtschreibung/Radius",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during P production",
+      "evidence": "der Radius; Radien; half diameter / centre-to-boundary length",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador",
+      "useStatus": "attached_to_selected_entries"
+    },
+    {
+      "id": "DUDEN_P_LEITER_LADDER",
+      "title": "Duden: Leiter-ladder",
+      "url": "https://www.duden.de/rechtschreibung/Leiter_Geraet",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during P production",
+      "evidence": "die Leiter; Leitern; climbing device",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador",
+      "useStatus": "attached_to_selected_entries"
+    },
+    {
+      "id": "DUDEN_P_MASSSTAB",
+      "title": "Duden: Maßstab",
+      "url": "https://www.duden.de/rechtschreibung/Maszstab",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during P production",
+      "evidence": "der Maßstab; Maßstäbe; cartographic ratio sense 2",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador",
+      "useStatus": "attached_to_selected_entries"
+    },
+    {
+      "id": "DUDEN_P_MASSE",
+      "title": "Duden: Masse",
+      "url": "https://www.duden.de/rechtschreibung/Masse",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during P production",
+      "evidence": "die Masse; Massen; physical property sense 5",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador",
+      "useStatus": "attached_to_selected_entries"
+    },
+    {
+      "id": "DUDEN_P_VOLUMEN",
+      "title": "Duden: Volumen",
+      "url": "https://www.duden.de/rechtschreibung/Volumen",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during P production",
+      "evidence": "das Volumen; physical sense 1 plural Volumen",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador",
+      "useStatus": "attached_to_selected_entries"
+    },
+    {
+      "id": "DUDEN_P_LEITER_CONDUCTOR",
+      "title": "Duden: Leiter-conductor",
+      "url": "https://www.duden.de/rechtschreibung/Leiter_Anfuehrer",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during P production",
+      "evidence": "der Leiter; Leiter; energy-conducting material sense 2",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador",
+      "useStatus": "attached_to_selected_entries"
+    },
+    {
+      "id": "DUDEN_P_LOESUNG",
+      "title": "Duden: Lösung",
+      "url": "https://www.duden.de/rechtschreibung/Loesung",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during P production",
+      "evidence": "die Lösung; Lösungen; school answer senses 1b/1d vs liquid solution sense 4b",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador",
+      "useStatus": "attached_to_selected_entries"
+    },
+    {
+      "id": "DUDEN_P_VIELFACHES",
+      "title": "Duden: Vielfaches",
+      "url": "https://www.duden.de/rechtschreibung/Vielfaches",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during P production",
+      "evidence": "das Vielfache/ein Vielfaches; die Vielfachen/zwei Vielfache",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador",
+      "useStatus": "attached_to_selected_entries"
+    },
+    {
+      "id": "DUDEN_P_AMPHIBIE",
+      "title": "Duden: Amphibie",
+      "url": "https://www.duden.de/rechtschreibung/Amphibie",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during P production",
+      "evidence": "die Amphibie; Amphibien; Lurch",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador",
+      "useStatus": "attached_to_selected_entries"
+    },
+    {
+      "id": "DUDEN_P_RHYTHMUS",
+      "title": "Duden: Rhythmus",
+      "url": "https://www.duden.de/rechtschreibung/Rhythmus",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during P production",
+      "evidence": "der Rhythmus; Rhythmen; musical temporal structure sense 1a",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador",
+      "useStatus": "attached_to_selected_entries"
+    },
+    {
+      "id": "DUDEN_P_KLIMA",
+      "title": "Duden: Klima",
+      "url": "https://www.duden.de/rechtschreibung/Klima",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during P production",
+      "evidence": "das Klima; Klimata; rare Klimas, technical Klimate",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador",
+      "useStatus": "attached_to_selected_entries"
+    },
+    {
+      "id": "DUDEN_P_SKALA",
+      "title": "Duden: Skala",
+      "url": "https://www.duden.de/rechtschreibung/Skala",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during P production",
+      "evidence": "die Skala; Skalen, rare Skalas; measurement graduations sense 1",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador",
+      "useStatus": "attached_to_selected_entries"
+    },
+    {
+      "id": "DUDEN_P_MINIMUM",
+      "title": "Duden: Minimum",
+      "url": "https://www.duden.de/rechtschreibung/Minimum",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during P production",
+      "evidence": "das Minimum; Minima; lower extreme sense 2a",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador",
+      "useStatus": "attached_to_selected_entries"
+    },
+    {
+      "id": "DUDEN_P_MAXIMUM",
+      "title": "Duden: Maximum",
+      "url": "https://www.duden.de/rechtschreibung/Maximum",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during P production",
+      "evidence": "das Maximum; Maxima; upper extreme sense 2a",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador",
+      "useStatus": "attached_to_selected_entries"
+    },
+    {
+      "id": "DUDEN_P_ATLAS",
+      "title": "Duden: Atlas",
+      "url": "https://www.duden.de/rechtschreibung/Atlas_Kartensammlung",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during P production",
+      "evidence": "der Atlas; Atlanten, Atlasse; geographic card collection sense 1",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador",
+      "useStatus": "attached_to_selected_entries"
+    },
+    {
+      "id": "DUDEN_P_GRAD",
+      "title": "Duden: Grad",
+      "url": "https://www.duden.de/rechtschreibung/Grad",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during P production",
+      "evidence": "temperature sense 2: das, also der; plural Grade, amount 20 Grad",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador",
+      "useStatus": "attached_to_selected_entries"
+    },
+    {
+      "id": "DUDEN_P_PRAESENS",
+      "title": "Duden: Präsens",
+      "url": "https://www.duden.de/rechtschreibung/Praesens",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during P production",
+      "evidence": "das Präsens; Präsentia, Präsenzien; tense/form",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador",
+      "useStatus": "attached_to_selected_entries"
+    },
+    {
+      "id": "DUDEN_P_PRAETERITUM",
+      "title": "Duden: Präteritum",
+      "url": "https://www.duden.de/rechtschreibung/Praeteritum",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during P production",
+      "evidence": "das Präteritum; Präterita; past tense/form",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador",
+      "useStatus": "attached_to_selected_entries"
+    },
+    {
+      "id": "DUDEN_P_PERFEKT",
+      "title": "Duden: Perfekt",
+      "url": "https://www.duden.de/rechtschreibung/Perfekt",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during P production",
+      "evidence": "das Perfekt; Perfekte; tense/form",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador",
+      "useStatus": "attached_to_selected_entries"
+    },
+    {
+      "id": "DUDEN_P_EBBE",
+      "title": "Duden: Ebbe",
+      "url": "https://www.duden.de/rechtschreibung/Ebbe",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during P production",
+      "evidence": "die Ebbe; Ebben; receding/receded tidal water",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador",
+      "useStatus": "attached_to_selected_entries"
+    },
+    {
+      "id": "DUDEN_P_FLUT",
+      "title": "Duden: Flut",
+      "url": "https://www.duden.de/rechtschreibung/Flut",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during P production",
+      "evidence": "die Flut; Fluten; rising/risen tidal water sense 1, not all flood senses",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador",
+      "useStatus": "attached_to_selected_entries"
+    },
+    {
+      "id": "DUDEN_P_ABGEORDNETER",
+      "title": "Duden: Abgeordneter",
+      "url": "https://www.duden.de/rechtschreibung/Abgeordneter",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during P production",
+      "evidence": "der Abgeordnete/ein Abgeordneter; die Abgeordneten/zwei Abgeordnete",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador",
+      "useStatus": "attached_to_selected_entries"
+    },
+    {
+      "id": "DUDEN_P_LOESEN",
+      "title": "Duden: lösen",
+      "url": "https://www.duden.de/rechtschreibung/loesen",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during P production",
+      "evidence": "löst; task solving senses 3a/3c vs dissolving 5a/5b, reflexive inchoative",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador",
+      "useStatus": "attached_to_selected_entries"
+    },
+    {
+      "id": "DUDEN_P_WATT",
+      "title": "Duden: Watt",
+      "url": "https://www.duden.de/rechtschreibung/Watt_Wattenmeer",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during P production",
+      "evidence": "das Watt; Watten; coastal flat, NOT power unit Watt",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador",
+      "useStatus": "attached_to_selected_entries"
+    },
+    {
+      "id": "DUDEN_P_DRUCK",
+      "title": "Duden: Druck",
+      "url": "https://www.duden.de/rechtschreibung/Druck_Kraft",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during P production",
+      "evidence": "der Druck; Drücke, rare Drucke; physical sense 1, not printed products",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador",
+      "useStatus": "attached_to_selected_entries"
+    },
+    {
+      "id": "DUDEN_P_PROBE",
+      "title": "Duden: Probe",
+      "url": "https://www.duden.de/rechtschreibung/Probe",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during P production",
+      "evidence": "die Probe; Proben; general checking sense 1 and grammar; exact mathematical application remains editorial",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador",
+      "useStatus": "attached_to_selected_entries"
+    },
+    {
+      "id": "DUDEN_P_REFRAIN",
+      "title": "Duden: Refrain",
+      "url": "https://www.duden.de/rechtschreibung/Refrain",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during P production",
+      "evidence": "der Refrain; Refrains; recurring song section",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador",
+      "useStatus": "attached_to_selected_entries"
+    },
+    {
+      "id": "DUDEN_P_NIEDERSCHLAG",
+      "title": "Duden: Niederschlag",
+      "url": "https://www.duden.de/rechtschreibung/Niederschlag",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during P production",
+      "evidence": "der Niederschlag; Niederschläge; meteorological falling water sense 1",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador",
+      "useStatus": "attached_to_selected_entries"
+    },
+    {
+      "id": "DUDEN_P_JE",
+      "title": "Duden: je",
+      "url": "https://www.duden.de/rechtschreibung/je_pro",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during P production",
+      "evidence": "distributive for each; preposition with Akkusativ; entry explicitly permits adverbial use without case government",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador",
+      "useStatus": "attached_to_selected_entries"
+    },
+    {
+      "id": "DUDEN_P_PRO",
+      "title": "Duden: pro",
+      "url": "https://www.duden.de/rechtschreibung/pro_je_zu_jeweils_fuer",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during P production",
+      "evidence": "preposition Akkusativ or Dativ; per-unit sense 1",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador",
+      "useStatus": "attached_to_selected_entries"
+    },
+    {
+      "id": "DUDEN_P_SICHER",
+      "title": "Duden: sicher",
+      "url": "https://www.duden.de/rechtschreibung/sicher_gefahrlos_tadellos_garantiert",
+      "evidenceStatus": "lexical_entry_opened",
+      "access": "Full public entry opened during P production",
+      "evidence": "adjective sense 1 safe from danger vs sense 5 certain",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador",
+      "useStatus": "attached_to_selected_entries"
+    },
+    {
+      "id": "BIPM_SI_BASE_UNITS",
+      "title": "BIPM: SI base units",
+      "url": "https://www.bipm.org/en/measurement-units/si-base-units",
+      "evidenceStatus": "primary_source_opened",
+      "access": "Public base-unit table opened in P production",
+      "evidence": "mass → kilogram (kg); length → metre (m); time → second (s); temperature base unit kelvin (K). Not a grade-four curricular mandate.",
+      "checkedAt": "2026-11-08",
+      "checkedTimezone": "America/El_Salvador"
+    }
+  ],
+  "createdAt": "2026-11-08T15:18:57.500412-06:00",
+  "timezone": "America/El_Salvador"
+}

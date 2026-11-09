@@ -1,0 +1,1857 @@
+{
+  "schemaVersion": "1.0.0",
+  "status": "OPTIONAL_RENDER_CONTRACTS_ONLY_NOT_ACTIVE_QUESTIONS",
+  "activeQuestionsRequiringThese": 0,
+  "contractCount": 52,
+  "contracts": [
+    {
+      "id": "scene-count-0",
+      "categoryId": "zahlen",
+      "targetEntryId": "lex-zahlen-null-numeral",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "count_array",
+      "parameters": {
+        "viewBox": [
+          0,
+          0,
+          320,
+          230
+        ],
+        "count": 0,
+        "object": "solid_disc",
+        "columns": 5,
+        "cell": [
+          48,
+          42
+        ],
+        "origin": [
+          40,
+          30
+        ],
+        "radius": 12,
+        "secondaryVariantObject": "apple",
+        "showDigits": false,
+        "showWrittenNumber": false,
+        "zeroShowsEmptyTray": true
+      },
+      "renderNotesDe": "Genau die angegebene Anzahl gleicher Gegenstände, ohne versteckte oder angeschnittene Teile. Null: leere, deutlich begrenzte Schale; nicht einfach eine kaputte/leere Grafik.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-count-1",
+      "categoryId": "zahlen",
+      "targetEntryId": "lex-zahlen-eins-numeral",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "count_array",
+      "parameters": {
+        "viewBox": [
+          0,
+          0,
+          320,
+          230
+        ],
+        "count": 1,
+        "object": "solid_disc",
+        "columns": 5,
+        "cell": [
+          48,
+          42
+        ],
+        "origin": [
+          40,
+          30
+        ],
+        "radius": 12,
+        "secondaryVariantObject": "apple",
+        "showDigits": false,
+        "showWrittenNumber": false,
+        "zeroShowsEmptyTray": true
+      },
+      "renderNotesDe": "Genau die angegebene Anzahl gleicher Gegenstände, ohne versteckte oder angeschnittene Teile. Null: leere, deutlich begrenzte Schale; nicht einfach eine kaputte/leere Grafik.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-count-2",
+      "categoryId": "zahlen",
+      "targetEntryId": "lex-zahlen-zwei-numeral",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "count_array",
+      "parameters": {
+        "viewBox": [
+          0,
+          0,
+          320,
+          230
+        ],
+        "count": 2,
+        "object": "solid_disc",
+        "columns": 5,
+        "cell": [
+          48,
+          42
+        ],
+        "origin": [
+          40,
+          30
+        ],
+        "radius": 12,
+        "secondaryVariantObject": "apple",
+        "showDigits": false,
+        "showWrittenNumber": false,
+        "zeroShowsEmptyTray": true
+      },
+      "renderNotesDe": "Genau die angegebene Anzahl gleicher Gegenstände, ohne versteckte oder angeschnittene Teile. Null: leere, deutlich begrenzte Schale; nicht einfach eine kaputte/leere Grafik.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-count-3",
+      "categoryId": "zahlen",
+      "targetEntryId": "lex-zahlen-drei-numeral",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "count_array",
+      "parameters": {
+        "viewBox": [
+          0,
+          0,
+          320,
+          230
+        ],
+        "count": 3,
+        "object": "solid_disc",
+        "columns": 5,
+        "cell": [
+          48,
+          42
+        ],
+        "origin": [
+          40,
+          30
+        ],
+        "radius": 12,
+        "secondaryVariantObject": "apple",
+        "showDigits": false,
+        "showWrittenNumber": false,
+        "zeroShowsEmptyTray": true
+      },
+      "renderNotesDe": "Genau die angegebene Anzahl gleicher Gegenstände, ohne versteckte oder angeschnittene Teile. Null: leere, deutlich begrenzte Schale; nicht einfach eine kaputte/leere Grafik.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-count-4",
+      "categoryId": "zahlen",
+      "targetEntryId": "lex-zahlen-vier-numeral",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "count_array",
+      "parameters": {
+        "viewBox": [
+          0,
+          0,
+          320,
+          230
+        ],
+        "count": 4,
+        "object": "solid_disc",
+        "columns": 5,
+        "cell": [
+          48,
+          42
+        ],
+        "origin": [
+          40,
+          30
+        ],
+        "radius": 12,
+        "secondaryVariantObject": "apple",
+        "showDigits": false,
+        "showWrittenNumber": false,
+        "zeroShowsEmptyTray": true
+      },
+      "renderNotesDe": "Genau die angegebene Anzahl gleicher Gegenstände, ohne versteckte oder angeschnittene Teile. Null: leere, deutlich begrenzte Schale; nicht einfach eine kaputte/leere Grafik.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-count-5",
+      "categoryId": "zahlen",
+      "targetEntryId": "lex-zahlen-fuenf-numeral",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "count_array",
+      "parameters": {
+        "viewBox": [
+          0,
+          0,
+          320,
+          230
+        ],
+        "count": 5,
+        "object": "solid_disc",
+        "columns": 5,
+        "cell": [
+          48,
+          42
+        ],
+        "origin": [
+          40,
+          30
+        ],
+        "radius": 12,
+        "secondaryVariantObject": "apple",
+        "showDigits": false,
+        "showWrittenNumber": false,
+        "zeroShowsEmptyTray": true
+      },
+      "renderNotesDe": "Genau die angegebene Anzahl gleicher Gegenstände, ohne versteckte oder angeschnittene Teile. Null: leere, deutlich begrenzte Schale; nicht einfach eine kaputte/leere Grafik.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-count-6",
+      "categoryId": "zahlen",
+      "targetEntryId": "lex-zahlen-sechs-numeral",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "count_array",
+      "parameters": {
+        "viewBox": [
+          0,
+          0,
+          320,
+          230
+        ],
+        "count": 6,
+        "object": "solid_disc",
+        "columns": 5,
+        "cell": [
+          48,
+          42
+        ],
+        "origin": [
+          40,
+          30
+        ],
+        "radius": 12,
+        "secondaryVariantObject": "apple",
+        "showDigits": false,
+        "showWrittenNumber": false,
+        "zeroShowsEmptyTray": true
+      },
+      "renderNotesDe": "Genau die angegebene Anzahl gleicher Gegenstände, ohne versteckte oder angeschnittene Teile. Null: leere, deutlich begrenzte Schale; nicht einfach eine kaputte/leere Grafik.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-count-7",
+      "categoryId": "zahlen",
+      "targetEntryId": "lex-zahlen-sieben-numeral",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "count_array",
+      "parameters": {
+        "viewBox": [
+          0,
+          0,
+          320,
+          230
+        ],
+        "count": 7,
+        "object": "solid_disc",
+        "columns": 5,
+        "cell": [
+          48,
+          42
+        ],
+        "origin": [
+          40,
+          30
+        ],
+        "radius": 12,
+        "secondaryVariantObject": "apple",
+        "showDigits": false,
+        "showWrittenNumber": false,
+        "zeroShowsEmptyTray": true
+      },
+      "renderNotesDe": "Genau die angegebene Anzahl gleicher Gegenstände, ohne versteckte oder angeschnittene Teile. Null: leere, deutlich begrenzte Schale; nicht einfach eine kaputte/leere Grafik.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-count-8",
+      "categoryId": "zahlen",
+      "targetEntryId": "lex-zahlen-acht-numeral",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "count_array",
+      "parameters": {
+        "viewBox": [
+          0,
+          0,
+          320,
+          230
+        ],
+        "count": 8,
+        "object": "solid_disc",
+        "columns": 5,
+        "cell": [
+          48,
+          42
+        ],
+        "origin": [
+          40,
+          30
+        ],
+        "radius": 12,
+        "secondaryVariantObject": "apple",
+        "showDigits": false,
+        "showWrittenNumber": false,
+        "zeroShowsEmptyTray": true
+      },
+      "renderNotesDe": "Genau die angegebene Anzahl gleicher Gegenstände, ohne versteckte oder angeschnittene Teile. Null: leere, deutlich begrenzte Schale; nicht einfach eine kaputte/leere Grafik.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-count-9",
+      "categoryId": "zahlen",
+      "targetEntryId": "lex-zahlen-neun-numeral",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "count_array",
+      "parameters": {
+        "viewBox": [
+          0,
+          0,
+          320,
+          230
+        ],
+        "count": 9,
+        "object": "solid_disc",
+        "columns": 5,
+        "cell": [
+          48,
+          42
+        ],
+        "origin": [
+          40,
+          30
+        ],
+        "radius": 12,
+        "secondaryVariantObject": "apple",
+        "showDigits": false,
+        "showWrittenNumber": false,
+        "zeroShowsEmptyTray": true
+      },
+      "renderNotesDe": "Genau die angegebene Anzahl gleicher Gegenstände, ohne versteckte oder angeschnittene Teile. Null: leere, deutlich begrenzte Schale; nicht einfach eine kaputte/leere Grafik.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-count-10",
+      "categoryId": "zahlen",
+      "targetEntryId": "lex-zahlen-zehn-numeral",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "count_array",
+      "parameters": {
+        "viewBox": [
+          0,
+          0,
+          320,
+          230
+        ],
+        "count": 10,
+        "object": "solid_disc",
+        "columns": 5,
+        "cell": [
+          48,
+          42
+        ],
+        "origin": [
+          40,
+          30
+        ],
+        "radius": 12,
+        "secondaryVariantObject": "apple",
+        "showDigits": false,
+        "showWrittenNumber": false,
+        "zeroShowsEmptyTray": true
+      },
+      "renderNotesDe": "Genau die angegebene Anzahl gleicher Gegenstände, ohne versteckte oder angeschnittene Teile. Null: leere, deutlich begrenzte Schale; nicht einfach eine kaputte/leere Grafik.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-count-11",
+      "categoryId": "zahlen",
+      "targetEntryId": "lex-zahlen-elf-numeral",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "count_array",
+      "parameters": {
+        "viewBox": [
+          0,
+          0,
+          320,
+          230
+        ],
+        "count": 11,
+        "object": "solid_disc",
+        "columns": 5,
+        "cell": [
+          48,
+          42
+        ],
+        "origin": [
+          40,
+          30
+        ],
+        "radius": 12,
+        "secondaryVariantObject": "apple",
+        "showDigits": false,
+        "showWrittenNumber": false,
+        "zeroShowsEmptyTray": true
+      },
+      "renderNotesDe": "Genau die angegebene Anzahl gleicher Gegenstände, ohne versteckte oder angeschnittene Teile. Null: leere, deutlich begrenzte Schale; nicht einfach eine kaputte/leere Grafik.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-count-12",
+      "categoryId": "zahlen",
+      "targetEntryId": "lex-zahlen-zwoelf-numeral",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "count_array",
+      "parameters": {
+        "viewBox": [
+          0,
+          0,
+          320,
+          230
+        ],
+        "count": 12,
+        "object": "solid_disc",
+        "columns": 5,
+        "cell": [
+          48,
+          42
+        ],
+        "origin": [
+          40,
+          30
+        ],
+        "radius": 12,
+        "secondaryVariantObject": "apple",
+        "showDigits": false,
+        "showWrittenNumber": false,
+        "zeroShowsEmptyTray": true
+      },
+      "renderNotesDe": "Genau die angegebene Anzahl gleicher Gegenstände, ohne versteckte oder angeschnittene Teile. Null: leere, deutlich begrenzte Schale; nicht einfach eine kaputte/leere Grafik.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-count-13",
+      "categoryId": "zahlen",
+      "targetEntryId": "lex-zahlen-dreizehn-numeral",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "count_array",
+      "parameters": {
+        "viewBox": [
+          0,
+          0,
+          320,
+          230
+        ],
+        "count": 13,
+        "object": "solid_disc",
+        "columns": 5,
+        "cell": [
+          48,
+          42
+        ],
+        "origin": [
+          40,
+          30
+        ],
+        "radius": 12,
+        "secondaryVariantObject": "apple",
+        "showDigits": false,
+        "showWrittenNumber": false,
+        "zeroShowsEmptyTray": true
+      },
+      "renderNotesDe": "Genau die angegebene Anzahl gleicher Gegenstände, ohne versteckte oder angeschnittene Teile. Null: leere, deutlich begrenzte Schale; nicht einfach eine kaputte/leere Grafik.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-count-14",
+      "categoryId": "zahlen",
+      "targetEntryId": "lex-zahlen-vierzehn-numeral",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "count_array",
+      "parameters": {
+        "viewBox": [
+          0,
+          0,
+          320,
+          230
+        ],
+        "count": 14,
+        "object": "solid_disc",
+        "columns": 5,
+        "cell": [
+          48,
+          42
+        ],
+        "origin": [
+          40,
+          30
+        ],
+        "radius": 12,
+        "secondaryVariantObject": "apple",
+        "showDigits": false,
+        "showWrittenNumber": false,
+        "zeroShowsEmptyTray": true
+      },
+      "renderNotesDe": "Genau die angegebene Anzahl gleicher Gegenstände, ohne versteckte oder angeschnittene Teile. Null: leere, deutlich begrenzte Schale; nicht einfach eine kaputte/leere Grafik.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-count-15",
+      "categoryId": "zahlen",
+      "targetEntryId": "lex-zahlen-fuenfzehn-numeral",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "count_array",
+      "parameters": {
+        "viewBox": [
+          0,
+          0,
+          320,
+          230
+        ],
+        "count": 15,
+        "object": "solid_disc",
+        "columns": 5,
+        "cell": [
+          48,
+          42
+        ],
+        "origin": [
+          40,
+          30
+        ],
+        "radius": 12,
+        "secondaryVariantObject": "apple",
+        "showDigits": false,
+        "showWrittenNumber": false,
+        "zeroShowsEmptyTray": true
+      },
+      "renderNotesDe": "Genau die angegebene Anzahl gleicher Gegenstände, ohne versteckte oder angeschnittene Teile. Null: leere, deutlich begrenzte Schale; nicht einfach eine kaputte/leere Grafik.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-count-16",
+      "categoryId": "zahlen",
+      "targetEntryId": "lex-zahlen-sechzehn-numeral",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "count_array",
+      "parameters": {
+        "viewBox": [
+          0,
+          0,
+          320,
+          230
+        ],
+        "count": 16,
+        "object": "solid_disc",
+        "columns": 5,
+        "cell": [
+          48,
+          42
+        ],
+        "origin": [
+          40,
+          30
+        ],
+        "radius": 12,
+        "secondaryVariantObject": "apple",
+        "showDigits": false,
+        "showWrittenNumber": false,
+        "zeroShowsEmptyTray": true
+      },
+      "renderNotesDe": "Genau die angegebene Anzahl gleicher Gegenstände, ohne versteckte oder angeschnittene Teile. Null: leere, deutlich begrenzte Schale; nicht einfach eine kaputte/leere Grafik.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-count-17",
+      "categoryId": "zahlen",
+      "targetEntryId": "lex-zahlen-siebzehn-numeral",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "count_array",
+      "parameters": {
+        "viewBox": [
+          0,
+          0,
+          320,
+          230
+        ],
+        "count": 17,
+        "object": "solid_disc",
+        "columns": 5,
+        "cell": [
+          48,
+          42
+        ],
+        "origin": [
+          40,
+          30
+        ],
+        "radius": 12,
+        "secondaryVariantObject": "apple",
+        "showDigits": false,
+        "showWrittenNumber": false,
+        "zeroShowsEmptyTray": true
+      },
+      "renderNotesDe": "Genau die angegebene Anzahl gleicher Gegenstände, ohne versteckte oder angeschnittene Teile. Null: leere, deutlich begrenzte Schale; nicht einfach eine kaputte/leere Grafik.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-count-18",
+      "categoryId": "zahlen",
+      "targetEntryId": "lex-zahlen-achtzehn-numeral",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "count_array",
+      "parameters": {
+        "viewBox": [
+          0,
+          0,
+          320,
+          230
+        ],
+        "count": 18,
+        "object": "solid_disc",
+        "columns": 5,
+        "cell": [
+          48,
+          42
+        ],
+        "origin": [
+          40,
+          30
+        ],
+        "radius": 12,
+        "secondaryVariantObject": "apple",
+        "showDigits": false,
+        "showWrittenNumber": false,
+        "zeroShowsEmptyTray": true
+      },
+      "renderNotesDe": "Genau die angegebene Anzahl gleicher Gegenstände, ohne versteckte oder angeschnittene Teile. Null: leere, deutlich begrenzte Schale; nicht einfach eine kaputte/leere Grafik.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-count-19",
+      "categoryId": "zahlen",
+      "targetEntryId": "lex-zahlen-neunzehn-numeral",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "count_array",
+      "parameters": {
+        "viewBox": [
+          0,
+          0,
+          320,
+          230
+        ],
+        "count": 19,
+        "object": "solid_disc",
+        "columns": 5,
+        "cell": [
+          48,
+          42
+        ],
+        "origin": [
+          40,
+          30
+        ],
+        "radius": 12,
+        "secondaryVariantObject": "apple",
+        "showDigits": false,
+        "showWrittenNumber": false,
+        "zeroShowsEmptyTray": true
+      },
+      "renderNotesDe": "Genau die angegebene Anzahl gleicher Gegenstände, ohne versteckte oder angeschnittene Teile. Null: leere, deutlich begrenzte Schale; nicht einfach eine kaputte/leere Grafik.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-count-20",
+      "categoryId": "zahlen",
+      "targetEntryId": "lex-zahlen-zwanzig-numeral",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "count_array",
+      "parameters": {
+        "viewBox": [
+          0,
+          0,
+          320,
+          230
+        ],
+        "count": 20,
+        "object": "solid_disc",
+        "columns": 5,
+        "cell": [
+          48,
+          42
+        ],
+        "origin": [
+          40,
+          30
+        ],
+        "radius": 12,
+        "secondaryVariantObject": "apple",
+        "showDigits": false,
+        "showWrittenNumber": false,
+        "zeroShowsEmptyTray": true
+      },
+      "renderNotesDe": "Genau die angegebene Anzahl gleicher Gegenstände, ohne versteckte oder angeschnittene Teile. Null: leere, deutlich begrenzte Schale; nicht einfach eine kaputte/leere Grafik.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-swatch-rot",
+      "categoryId": "merkmale",
+      "targetEntryId": "lex-merkmale-rot-adjective",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "color_swatch",
+      "parameters": {
+        "viewBox": [
+          0,
+          0,
+          240,
+          180
+        ],
+        "shape": "disc",
+        "center": [
+          120,
+          90
+        ],
+        "radius": 55,
+        "fill": "#D62728",
+        "border": "#777777",
+        "background": "#ECECEC",
+        "allDistractorsSameShape": true
+      },
+      "renderNotesDe": "Keine Beschriftung oder farbigen Wörter. Weiße Fläche muss durch grauen Hintergrund und Rand sichtbar sein. Ersatzaufgabe bei Farbsehschwierigkeiten; nicht als allgemeines Wortverständnisproblem werten.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-swatch-blau",
+      "categoryId": "merkmale",
+      "targetEntryId": "lex-merkmale-blau-adjective",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "color_swatch",
+      "parameters": {
+        "viewBox": [
+          0,
+          0,
+          240,
+          180
+        ],
+        "shape": "disc",
+        "center": [
+          120,
+          90
+        ],
+        "radius": 55,
+        "fill": "#2463CB",
+        "border": "#777777",
+        "background": "#ECECEC",
+        "allDistractorsSameShape": true
+      },
+      "renderNotesDe": "Keine Beschriftung oder farbigen Wörter. Weiße Fläche muss durch grauen Hintergrund und Rand sichtbar sein. Ersatzaufgabe bei Farbsehschwierigkeiten; nicht als allgemeines Wortverständnisproblem werten.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-swatch-gelb",
+      "categoryId": "merkmale",
+      "targetEntryId": "lex-merkmale-gelb-adjective",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "color_swatch",
+      "parameters": {
+        "viewBox": [
+          0,
+          0,
+          240,
+          180
+        ],
+        "shape": "disc",
+        "center": [
+          120,
+          90
+        ],
+        "radius": 55,
+        "fill": "#F4D13D",
+        "border": "#777777",
+        "background": "#ECECEC",
+        "allDistractorsSameShape": true
+      },
+      "renderNotesDe": "Keine Beschriftung oder farbigen Wörter. Weiße Fläche muss durch grauen Hintergrund und Rand sichtbar sein. Ersatzaufgabe bei Farbsehschwierigkeiten; nicht als allgemeines Wortverständnisproblem werten.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-swatch-grün",
+      "categoryId": "merkmale",
+      "targetEntryId": "lex-merkmale-gruen-adjective",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "color_swatch",
+      "parameters": {
+        "viewBox": [
+          0,
+          0,
+          240,
+          180
+        ],
+        "shape": "disc",
+        "center": [
+          120,
+          90
+        ],
+        "radius": 55,
+        "fill": "#258A45",
+        "border": "#777777",
+        "background": "#ECECEC",
+        "allDistractorsSameShape": true
+      },
+      "renderNotesDe": "Keine Beschriftung oder farbigen Wörter. Weiße Fläche muss durch grauen Hintergrund und Rand sichtbar sein. Ersatzaufgabe bei Farbsehschwierigkeiten; nicht als allgemeines Wortverständnisproblem werten.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-swatch-weiß",
+      "categoryId": "merkmale",
+      "targetEntryId": "lex-merkmale-weiss-adjective",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "color_swatch",
+      "parameters": {
+        "viewBox": [
+          0,
+          0,
+          240,
+          180
+        ],
+        "shape": "disc",
+        "center": [
+          120,
+          90
+        ],
+        "radius": 55,
+        "fill": "#FFFFFF",
+        "border": "#777777",
+        "background": "#ECECEC",
+        "allDistractorsSameShape": true
+      },
+      "renderNotesDe": "Keine Beschriftung oder farbigen Wörter. Weiße Fläche muss durch grauen Hintergrund und Rand sichtbar sein. Ersatzaufgabe bei Farbsehschwierigkeiten; nicht als allgemeines Wortverständnisproblem werten.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-swatch-schwarz",
+      "categoryId": "merkmale",
+      "targetEntryId": "lex-merkmale-schwarz-adjective",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "color_swatch",
+      "parameters": {
+        "viewBox": [
+          0,
+          0,
+          240,
+          180
+        ],
+        "shape": "disc",
+        "center": [
+          120,
+          90
+        ],
+        "radius": 55,
+        "fill": "#111111",
+        "border": "#777777",
+        "background": "#ECECEC",
+        "allDistractorsSameShape": true
+      },
+      "renderNotesDe": "Keine Beschriftung oder farbigen Wörter. Weiße Fläche muss durch grauen Hintergrund und Rand sichtbar sein. Ersatzaufgabe bei Farbsehschwierigkeiten; nicht als allgemeines Wortverständnisproblem werten.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-swatch-braun",
+      "categoryId": "merkmale",
+      "targetEntryId": "lex-merkmale-braun-adjective",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "color_swatch",
+      "parameters": {
+        "viewBox": [
+          0,
+          0,
+          240,
+          180
+        ],
+        "shape": "disc",
+        "center": [
+          120,
+          90
+        ],
+        "radius": 55,
+        "fill": "#875535",
+        "border": "#777777",
+        "background": "#ECECEC",
+        "allDistractorsSameShape": true
+      },
+      "renderNotesDe": "Keine Beschriftung oder farbigen Wörter. Weiße Fläche muss durch grauen Hintergrund und Rand sichtbar sein. Ersatzaufgabe bei Farbsehschwierigkeiten; nicht als allgemeines Wortverständnisproblem werten.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-shape-kreis",
+      "categoryId": "geometrie",
+      "targetEntryId": "lex-geometrie-kreis-noun",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "circle",
+      "parameters": {
+        "viewBox": [
+          0,
+          0,
+          240,
+          180
+        ],
+        "geometry": {
+          "center": [
+            120,
+            90
+          ],
+          "radius": 50
+        },
+        "fill": "#377B9F",
+        "showText": false
+      },
+      "renderNotesDe": "Alle Formen klar zentriert, gleich gut sichtbar. Kreis ist flach, Kugel räumlich schattiert. Ein Quadrat ist auch ein Rechteck; nie als falsche Rechteck-Alternative nutzen. Würfel zeigt quadratische Flächen in verständlicher räumlicher Darstellung.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-shape-dreieck",
+      "categoryId": "geometrie",
+      "targetEntryId": "lex-geometrie-dreieck-noun",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "polygon",
+      "parameters": {
+        "viewBox": [
+          0,
+          0,
+          240,
+          180
+        ],
+        "geometry": {
+          "points": [
+            [
+              120,
+              35
+            ],
+            [
+              65,
+              135
+            ],
+            [
+              175,
+              135
+            ]
+          ]
+        },
+        "fill": "#377B9F",
+        "showText": false
+      },
+      "renderNotesDe": "Alle Formen klar zentriert, gleich gut sichtbar. Kreis ist flach, Kugel räumlich schattiert. Ein Quadrat ist auch ein Rechteck; nie als falsche Rechteck-Alternative nutzen. Würfel zeigt quadratische Flächen in verständlicher räumlicher Darstellung.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-shape-quadrat",
+      "categoryId": "geometrie",
+      "targetEntryId": "lex-geometrie-quadrat-noun",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "rect",
+      "parameters": {
+        "viewBox": [
+          0,
+          0,
+          240,
+          180
+        ],
+        "geometry": {
+          "x": 70,
+          "y": 40,
+          "width": 100,
+          "height": 100
+        },
+        "fill": "#377B9F",
+        "showText": false
+      },
+      "renderNotesDe": "Alle Formen klar zentriert, gleich gut sichtbar. Kreis ist flach, Kugel räumlich schattiert. Ein Quadrat ist auch ein Rechteck; nie als falsche Rechteck-Alternative nutzen. Würfel zeigt quadratische Flächen in verständlicher räumlicher Darstellung.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-shape-rechteck",
+      "categoryId": "geometrie",
+      "targetEntryId": "lex-geometrie-rechteck-noun",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "rect",
+      "parameters": {
+        "viewBox": [
+          0,
+          0,
+          240,
+          180
+        ],
+        "geometry": {
+          "x": 45,
+          "y": 65,
+          "width": 150,
+          "height": 60
+        },
+        "fill": "#377B9F",
+        "showText": false
+      },
+      "renderNotesDe": "Alle Formen klar zentriert, gleich gut sichtbar. Kreis ist flach, Kugel räumlich schattiert. Ein Quadrat ist auch ein Rechteck; nie als falsche Rechteck-Alternative nutzen. Würfel zeigt quadratische Flächen in verständlicher räumlicher Darstellung.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-shape-würfel",
+      "categoryId": "geometrie",
+      "targetEntryId": "lex-geometrie-wuerfel-noun",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "cube_oblique",
+      "parameters": {
+        "viewBox": [
+          0,
+          0,
+          240,
+          180
+        ],
+        "geometry": {
+          "frontSquare": [
+            [
+              70,
+              70
+            ],
+            [
+              140,
+              70
+            ],
+            [
+              140,
+              140
+            ],
+            [
+              70,
+              140
+            ]
+          ],
+          "depthOffset": [
+            30,
+            -25
+          ]
+        },
+        "fill": "#377B9F",
+        "showText": false
+      },
+      "renderNotesDe": "Alle Formen klar zentriert, gleich gut sichtbar. Kreis ist flach, Kugel räumlich schattiert. Ein Quadrat ist auch ein Rechteck; nie als falsche Rechteck-Alternative nutzen. Würfel zeigt quadratische Flächen in verständlicher räumlicher Darstellung.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-shape-kugel",
+      "categoryId": "geometrie",
+      "targetEntryId": "lex-geometrie-kugel-noun",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "sphere",
+      "parameters": {
+        "viewBox": [
+          0,
+          0,
+          240,
+          180
+        ],
+        "geometry": {
+          "center": [
+            120,
+            90
+          ],
+          "radius": 50,
+          "shading": "radial_3d_no_flat_face"
+        },
+        "fill": "#377B9F",
+        "showText": false
+      },
+      "renderNotesDe": "Alle Formen klar zentriert, gleich gut sichtbar. Kreis ist flach, Kugel räumlich schattiert. Ein Quadrat ist auch ein Rechteck; nie als falsche Rechteck-Alternative nutzen. Würfel zeigt quadratische Flächen in verständlicher räumlicher Darstellung.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-spatial-auf",
+      "categoryId": "beziehungen",
+      "targetEntryId": "lex-beziehungen-static-on-surface",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "spatial_arrangement",
+      "parameters": {
+        "viewBox": [
+          0,
+          0,
+          320,
+          250
+        ],
+        "tableTop": [
+          70,
+          100,
+          180,
+          12
+        ],
+        "ballCenter": [
+          160,
+          83
+        ],
+        "ballRadius": 17,
+        "contact": "ball_bottom_equals_table_top"
+      },
+      "renderNotesDe": "Derselbe neutrale Gegenstand und Maßstab in allen Alternativen. Bei vor/hinter ist der Blickpunkt als Person unten markiert, die Haustür markiert eindeutig die Vorderseite. Nicht mit links/rechts verwechseln. Keine Zielpräposition im SVG-Titel/Alt-Text.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-spatial-unter",
+      "categoryId": "beziehungen",
+      "targetEntryId": "lex-beziehungen-static-below",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "spatial_arrangement",
+      "parameters": {
+        "viewBox": [
+          0,
+          0,
+          320,
+          250
+        ],
+        "tableTop": [
+          70,
+          90,
+          180,
+          12
+        ],
+        "legsAtX": [
+          80,
+          235
+        ],
+        "floorY": 180,
+        "ballCenter": [
+          155,
+          163
+        ],
+        "ballRadius": 17
+      },
+      "renderNotesDe": "Derselbe neutrale Gegenstand und Maßstab in allen Alternativen. Bei vor/hinter ist der Blickpunkt als Person unten markiert, die Haustür markiert eindeutig die Vorderseite. Nicht mit links/rechts verwechseln. Keine Zielpräposition im SVG-Titel/Alt-Text.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-spatial-neben",
+      "categoryId": "beziehungen",
+      "targetEntryId": "lex-beziehungen-static-next-to",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "spatial_arrangement",
+      "parameters": {
+        "viewBox": [
+          0,
+          0,
+          320,
+          250
+        ],
+        "boxRect": [
+          145,
+          80,
+          90,
+          80
+        ],
+        "ballCenter": [
+          105,
+          143
+        ],
+        "ballRadius": 17,
+        "sameFloorY": 160
+      },
+      "renderNotesDe": "Derselbe neutrale Gegenstand und Maßstab in allen Alternativen. Bei vor/hinter ist der Blickpunkt als Person unten markiert, die Haustür markiert eindeutig die Vorderseite. Nicht mit links/rechts verwechseln. Keine Zielpräposition im SVG-Titel/Alt-Text.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-spatial-in",
+      "categoryId": "beziehungen",
+      "targetEntryId": "lex-beziehungen-static-inside",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "spatial_arrangement",
+      "parameters": {
+        "viewBox": [
+          0,
+          0,
+          320,
+          250
+        ],
+        "container": "open_box_cutaway",
+        "boxRect": [
+          80,
+          65,
+          150,
+          100
+        ],
+        "ballCenter": [
+          150,
+          125
+        ],
+        "ballRadius": 17,
+        "insideBoundary": true
+      },
+      "renderNotesDe": "Derselbe neutrale Gegenstand und Maßstab in allen Alternativen. Bei vor/hinter ist der Blickpunkt als Person unten markiert, die Haustür markiert eindeutig die Vorderseite. Nicht mit links/rechts verwechseln. Keine Zielpräposition im SVG-Titel/Alt-Text.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-spatial-vor",
+      "categoryId": "beziehungen",
+      "targetEntryId": "lex-beziehungen-spatial-front",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "spatial_arrangement",
+      "parameters": {
+        "viewBox": [
+          0,
+          0,
+          320,
+          250
+        ],
+        "model": "plan_view_front_marked_house",
+        "houseRect": [
+          110,
+          55,
+          100,
+          75
+        ],
+        "doorCenter": [
+          160,
+          130
+        ],
+        "viewerAt": [
+          160,
+          220
+        ],
+        "treeCenter": [
+          160,
+          175
+        ]
+      },
+      "renderNotesDe": "Derselbe neutrale Gegenstand und Maßstab in allen Alternativen. Bei vor/hinter ist der Blickpunkt als Person unten markiert, die Haustür markiert eindeutig die Vorderseite. Nicht mit links/rechts verwechseln. Keine Zielpräposition im SVG-Titel/Alt-Text.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-spatial-hinter",
+      "categoryId": "beziehungen",
+      "targetEntryId": "lex-beziehungen-spatial-behind",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "spatial_arrangement",
+      "parameters": {
+        "viewBox": [
+          0,
+          0,
+          320,
+          250
+        ],
+        "model": "plan_view_front_marked_house",
+        "houseRect": [
+          110,
+          90,
+          100,
+          75
+        ],
+        "doorCenter": [
+          160,
+          165
+        ],
+        "viewerAt": [
+          160,
+          230
+        ],
+        "treeCenter": [
+          160,
+          50
+        ]
+      },
+      "renderNotesDe": "Derselbe neutrale Gegenstand und Maßstab in allen Alternativen. Bei vor/hinter ist der Blickpunkt als Person unten markiert, die Haustür markiert eindeutig die Vorderseite. Nicht mit links/rechts verwechseln. Keine Zielpräposition im SVG-Titel/Alt-Text.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-half-eight",
+      "categoryId": "rechnen",
+      "targetEntryId": "lex-rechnen-haelfte-noun",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "highlighted_count_array",
+      "parameters": {
+        "total": 8,
+        "highlighted": 4,
+        "columns": 4,
+        "rows": 2,
+        "wrongHighlightedCounts": [
+          3,
+          6
+        ],
+        "sameTotalAllOptions": true,
+        "distinguishHighlightBy": [
+          "fill",
+          "outline"
+        ]
+      },
+      "renderNotesDe": "Genau vier von insgesamt acht gleich großen Plättchen hervorgehoben. Gesamtmenge aller Alternativen gleich. Nicht bloß beliebige ungleiche Stücke als Hälften zeigen.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-table-grid",
+      "categoryId": "daten",
+      "targetEntryId": "lex-daten-tabelle-noun",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "table_grid",
+      "parameters": {
+        "rows": 4,
+        "columns": 3,
+        "headers": [
+          "Name",
+          "Äpfel",
+          "Birnen"
+        ],
+        "data": [
+          [
+            "Mia",
+            2,
+            1
+          ],
+          [
+            "Ben",
+            1,
+            3
+          ],
+          [
+            "Leo",
+            3,
+            2
+          ]
+        ],
+        "supportHighlightModes": [
+          "row",
+          "column"
+        ],
+        "rowHighlight": 2,
+        "columnHighlight": 1
+      },
+      "renderNotesDe": "Tabelle als echte Datenstruktur. Zeile: waagerecht. Spalte: senkrecht. Bei Markierungen auch Rahmen/Muster verwenden, nicht nur Farben. Daten dürfen sichtbar sein; Wortantworten nicht im Bild benennen.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-object-apfel",
+      "categoryId": "essen",
+      "targetEntryId": "lex-essen-apfel-noun",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "authored_object_illustration",
+      "parameters": {
+        "sceneDescriptionDe": "Ein einzelner runder Apfel mit Stiel und typischem Kerngehäuse im zweiten aufgeschnittenen Beispiel; keine beliebige rote Kugel.",
+        "viewBox": [
+          0,
+          0,
+          320,
+          240
+        ],
+        "background": "plain_high_contrast",
+        "showText": false,
+        "license": "new_original_SVG_or_properly_licensed_asset_required"
+      },
+      "renderNotesDe": "Ein einzelner runder Apfel mit Stiel und typischem Kerngehäuse im zweiten aufgeschnittenen Beispiel; keine beliebige rote Kugel.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-object-heft",
+      "categoryId": "schule",
+      "targetEntryId": "lex-schule-heft-noun",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "authored_object_illustration",
+      "parameters": {
+        "sceneDescriptionDe": "Ein dünnes Schulheft mit klar sichtbaren linierten, weitgehend leeren Seiten; keine Zeitschrift und kein gedrucktes Geschichtenbuch.",
+        "viewBox": [
+          0,
+          0,
+          320,
+          240
+        ],
+        "background": "plain_high_contrast",
+        "showText": false,
+        "license": "new_original_SVG_or_properly_licensed_asset_required"
+      },
+      "renderNotesDe": "Ein dünnes Schulheft mit klar sichtbaren linierten, weitgehend leeren Seiten; keine Zeitschrift und kein gedrucktes Geschichtenbuch.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-object-buch",
+      "categoryId": "schule",
+      "targetEntryId": "lex-schule-buch-noun",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "authored_object_illustration",
+      "parameters": {
+        "sceneDescriptionDe": "Ein gebundenes Lesebuch mit sichtbaren bedruckten Textseiten und stabilem Einband; kein leeres Übungsheft.",
+        "viewBox": [
+          0,
+          0,
+          320,
+          240
+        ],
+        "background": "plain_high_contrast",
+        "showText": false,
+        "license": "new_original_SVG_or_properly_licensed_asset_required"
+      },
+      "renderNotesDe": "Ein gebundenes Lesebuch mit sichtbaren bedruckten Textseiten und stabilem Einband; kein leeres Übungsheft.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-object-reis",
+      "categoryId": "essen",
+      "targetEntryId": "lex-essen-reis-noun",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "authored_object_illustration",
+      "parameters": {
+        "sceneDescriptionDe": "Eine kleine Schale mit vielen deutlich erkennbaren gekochten Reiskörnern, nicht eine weiße unstrukturierte Masse.",
+        "viewBox": [
+          0,
+          0,
+          320,
+          240
+        ],
+        "background": "plain_high_contrast",
+        "showText": false,
+        "license": "new_original_SVG_or_properly_licensed_asset_required"
+      },
+      "renderNotesDe": "Eine kleine Schale mit vielen deutlich erkennbaren gekochten Reiskörnern, nicht eine weiße unstrukturierte Masse.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-object-ziege",
+      "categoryId": "tiere",
+      "targetEntryId": "lex-tiere-ziege-noun",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "authored_object_illustration",
+      "parameters": {
+        "sceneDescriptionDe": "Eine Ziege mit Hufen, typischer Kopfform, kurzem Bart und gegebenenfalls Hörnern; nicht nur eine generische braune Tier-Silhouette.",
+        "viewBox": [
+          0,
+          0,
+          320,
+          240
+        ],
+        "background": "plain_high_contrast",
+        "showText": false,
+        "license": "new_original_SVG_or_properly_licensed_asset_required"
+      },
+      "renderNotesDe": "Eine Ziege mit Hufen, typischer Kopfform, kurzem Bart und gegebenenfalls Hörnern; nicht nur eine generische braune Tier-Silhouette.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-object-ohr",
+      "categoryId": "koerper",
+      "targetEntryId": "lex-koerper-ohr-noun",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "authored_object_illustration",
+      "parameters": {
+        "sceneDescriptionDe": "Kopf in klarer Seitenansicht mit hervorgehobenem äußerem Ohr; kein isolierter abstrakter Bogen.",
+        "viewBox": [
+          0,
+          0,
+          320,
+          240
+        ],
+        "background": "plain_high_contrast",
+        "showText": false,
+        "license": "new_original_SVG_or_properly_licensed_asset_required"
+      },
+      "renderNotesDe": "Kopf in klarer Seitenansicht mit hervorgehobenem äußerem Ohr; kein isolierter abstrakter Bogen.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-object-hand",
+      "categoryId": "koerper",
+      "targetEntryId": "lex-koerper-hand-noun",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "authored_object_illustration",
+      "parameters": {
+        "sceneDescriptionDe": "Eine Hand mit fünf sichtbaren Fingern am Ende eines Arms; keine Faust, bei der die Fingeranzahl nicht erkennbar ist.",
+        "viewBox": [
+          0,
+          0,
+          320,
+          240
+        ],
+        "background": "plain_high_contrast",
+        "showText": false,
+        "license": "new_original_SVG_or_properly_licensed_asset_required"
+      },
+      "renderNotesDe": "Eine Hand mit fünf sichtbaren Fingern am Ende eines Arms; keine Faust, bei der die Fingeranzahl nicht erkennbar ist.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-object-regenschirm",
+      "categoryId": "wetter",
+      "targetEntryId": "lex-wetter-regenschirm-noun",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "authored_object_illustration",
+      "parameters": {
+        "sceneDescriptionDe": "Ein aufgespannter Schirm an einem Griff über einer fiktiven Person, mit sichtbaren Regentropfen außerhalb der Schirmfläche.",
+        "viewBox": [
+          0,
+          0,
+          320,
+          240
+        ],
+        "background": "plain_high_contrast",
+        "showText": false,
+        "license": "new_original_SVG_or_properly_licensed_asset_required"
+      },
+      "renderNotesDe": "Ein aufgespannter Schirm an einem Griff über einer fiktiven Person, mit sichtbaren Regentropfen außerhalb der Schirmfläche.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-object-fahrrad",
+      "categoryId": "verkehr",
+      "targetEntryId": "lex-verkehr-fahrrad-noun",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "authored_object_illustration",
+      "parameters": {
+        "sceneDescriptionDe": "Zwei Räder, Rahmen, Lenker und gut sichtbare Pedale; ohne Motor, kein Motorrad.",
+        "viewBox": [
+          0,
+          0,
+          320,
+          240
+        ],
+        "background": "plain_high_contrast",
+        "showText": false,
+        "license": "new_original_SVG_or_properly_licensed_asset_required"
+      },
+      "renderNotesDe": "Zwei Räder, Rahmen, Lenker und gut sichtbare Pedale; ohne Motor, kein Motorrad.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    },
+    {
+      "id": "scene-object-schiff",
+      "categoryId": "verkehr",
+      "targetEntryId": "lex-verkehr-schiff-noun",
+      "status": "contract_only_not_rendered_or_assessed",
+      "model": "authored_object_illustration",
+      "parameters": {
+        "sceneDescriptionDe": "Ein größeres Passagier- oder Frachtschiff im Wasser, mit Rumpf über und unter einer Wasserlinie; kein Flugzeug auf blauem Hintergrund.",
+        "viewBox": [
+          0,
+          0,
+          320,
+          240
+        ],
+        "background": "plain_high_contrast",
+        "showText": false,
+        "license": "new_original_SVG_or_properly_licensed_asset_required"
+      },
+      "renderNotesDe": "Ein größeres Passagier- oder Frachtschiff im Wasser, mit Rumpf über und unter einer Wasserlinie; kein Flugzeug auf blauem Hintergrund.",
+      "requiresImplementation": true,
+      "requiresVisualQA": true,
+      "noEmojiSubstitution": true,
+      "noAnswerTextInAsset": true,
+      "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
+      "accessibleNeutralLabelDe": "Abbildung",
+      "mustNotExposeInternalIdOrTargetLemma": true
+    }
+  ],
+  "notes": [
+    "All 1060 active authored questions have a complete text stimulus and three choices; no image dependency.",
+    "Cloud may add reviewed picture/scene modes after implementing these contracts; do not count contracts as completed assets or extra assessed questions.",
+    "No emoji substitution, no answer-bearing image titles/alt or target labels in listening.",
+    "Read-aloud of visible German text is a reading accommodation/practice feature, not an assessed listening score."
+  ]
+}
