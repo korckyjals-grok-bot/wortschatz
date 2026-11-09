@@ -10,7 +10,8 @@
       .replace(/&/g, '&amp;')
       .replace(/</g, '&lt;')
       .replace(/>/g, '&gt;')
-      .replace(/"/g, '&quot;');
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
   }
 
   function groupOf(id) {
@@ -46,6 +47,10 @@
     const cCount = (per.C && per.C.uniqueEntries) || 566;
     const pCount = (per.P && per.P.uniqueEntries) || 391;
     let selectedLevel = data.current.defaultLevel || 'F';
+    try {
+      const fromUrl = new URLSearchParams(location.search).get('stufe');
+      if (fromUrl && avail.indexOf(fromUrl) >= 0) selectedLevel = fromUrl;
+    } catch (e) {}
     if (avail.indexOf(selectedLevel) < 0) selectedLevel = avail[0] || 'F';
 
     root.innerHTML =
@@ -63,12 +68,10 @@
       '</p>' +
       '<p class="wz-counts">Jetzt verfügbar: <strong>' +
       data.entryCount +
-      '</strong> Wörter (F ' +
-      fCount +
-      ' · C ' +
-      cCount +
-      ' · P ' +
-      pCount +
+      '</strong> Wörter (' +
+      esc(data.levelLabel('F')) + ' ' + fCount +
+      ' · ' + esc(data.levelLabel('C')) + ' ' + cCount +
+      ' · ' + esc(data.levelLabel('P')) + ' ' + pCount +
       ') · <strong>' +
       data.textQuestionCount +
       '</strong> Textfragen · <strong>' +
@@ -125,7 +128,9 @@
       esc(UI.about) +
       '</summary>' +
       '<div class="wz-adult-body" lang="es">' +
-      '<p>Wortschatz <strong>1.2.0</strong>: Fundamente + Festigen + Schulbrücke — ' +
+      '<p>Wortschatz <strong>' +
+      esc(String(data.current.contentVersion || '').replace(/-FCP$/, '')) +
+      '</strong>: Fundamente + Festigen + Schulbrücke — ' +
       data.entryCount +
       ' sentidos, ' +
       data.textQuestionCount +
@@ -138,7 +143,7 @@
       esc(UI.reset) +
       '</button></p>' +
       '</div></details></section>' +
-      '<p class="wz-footer-nav"><a href="../aleman/index.html">← Alemán</a></p>';
+      '<p class="wz-footer-nav"><a href="../aleman/index.html">← ' + esc(UI.backGerman || 'Deutsch') + '</a></p>';
 
     const doors = document.getElementById('wzDoors');
     const route = document.getElementById('wzRoute');
@@ -150,7 +155,7 @@
         const cov = (cat.perLevelCoverage && cat.perLevelCoverage[selectedLevel]) || {};
         const nEnt = cov.primaryEntries || cov.membershipCount || cat.actualPrimaryEntries;
         const nQ = cov.questionCount || (cov.questionIds || []).length || (cat.questionIds || []).length;
-        const ids = cov.entryIds || cat.entryIds || [];
+        const ids = data.levelEntryIds ? data.levelEntryIds(cat, selectedLevel) : cov.entryIds || cat.entryIds || [];
         const sum = WortschatzProgress.summarize(store, ids);
         const g = groupOf(cat.id);
         const card =
@@ -181,6 +186,8 @@
           sum.sicher_erkannt +
           ' · in Übung ' +
           (sum.in_uebung + sum.spaeter_wiederholen) +
+          ' · mit Hilfe ' +
+          sum.mit_hilfe +
           ' · neu ' +
           sum.neu +
           '</span>' +

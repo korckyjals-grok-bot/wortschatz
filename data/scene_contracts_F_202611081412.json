@@ -1445,9 +1445,12 @@
           220
         ],
         "treeCenter": [
-          160,
-          175
-        ]
+          212,
+          124
+        ],
+        "treeRadius": 30,
+        "treeBaseY": 196,
+        "treeDrawOrder": "in_front_of_house"
       },
       "renderNotesDe": "Derselbe neutrale Gegenstand und Maßstab in allen Alternativen. Bei vor/hinter ist der Blickpunkt als Person unten markiert, die Haustür markiert eindeutig die Vorderseite. Nicht mit links/rechts verwechseln. Keine Zielpräposition im SVG-Titel/Alt-Text.",
       "requiresImplementation": true,
@@ -1456,7 +1459,8 @@
       "noAnswerTextInAsset": true,
       "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
       "accessibleNeutralLabelDe": "Abbildung",
-      "mustNotExposeInternalIdOrTargetLemma": true
+      "mustNotExposeInternalIdOrTargetLemma": true,
+      "revision121": "I-02: gleiche Baumgröße wie bei hinter; Baum verdeckt einen Teil der Hauswand."
     },
     {
       "id": "scene-spatial-hinter",
@@ -1487,9 +1491,12 @@
           230
         ],
         "treeCenter": [
-          160,
-          50
-        ]
+          174,
+          58
+        ],
+        "treeRadius": 36,
+        "treeBaseY": 150,
+        "treeDrawOrder": "behind_house"
       },
       "renderNotesDe": "Derselbe neutrale Gegenstand und Maßstab in allen Alternativen. Bei vor/hinter ist der Blickpunkt als Person unten markiert, die Haustür markiert eindeutig die Vorderseite. Nicht mit links/rechts verwechseln. Keine Zielpräposition im SVG-Titel/Alt-Text.",
       "requiresImplementation": true,
@@ -1498,7 +1505,8 @@
       "noAnswerTextInAsset": true,
       "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
       "accessibleNeutralLabelDe": "Abbildung",
-      "mustNotExposeInternalIdOrTargetLemma": true
+      "mustNotExposeInternalIdOrTargetLemma": true,
+      "revision121": "I-02: Baum steht hinter dem Haus, wird teilweise vom Haus verdeckt (vorher: Baum auf dem Dach)."
     },
     {
       "id": "scene-half-eight",
@@ -1602,7 +1610,8 @@
       "noAnswerTextInAsset": true,
       "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
       "accessibleNeutralLabelDe": "Abbildung",
-      "mustNotExposeInternalIdOrTargetLemma": true
+      "mustNotExposeInternalIdOrTargetLemma": true,
+      "revision121": "I-27: Apfelhälfte als Querschnitt (Schale, Kerngehäuse, Kerne), nicht mehr wie Blatt/Ohr."
     },
     {
       "id": "scene-object-heft",
@@ -1710,7 +1719,8 @@
       "noAnswerTextInAsset": true,
       "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
       "accessibleNeutralLabelDe": "Abbildung",
-      "mustNotExposeInternalIdOrTargetLemma": true
+      "mustNotExposeInternalIdOrTargetLemma": true,
+      "revision121": "I-10: neue Zeichnung mit Hörnern, Bart, Hufen, Ohr und Schwanz."
     },
     {
       "id": "scene-object-ohr",
@@ -1791,7 +1801,8 @@
       "noAnswerTextInAsset": true,
       "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
       "accessibleNeutralLabelDe": "Abbildung",
-      "mustNotExposeInternalIdOrTargetLemma": true
+      "mustNotExposeInternalIdOrTargetLemma": true,
+      "revision121": "I-27: Zeichnung korrigiert."
     },
     {
       "id": "scene-object-fahrrad",
@@ -1818,7 +1829,8 @@
       "noAnswerTextInAsset": true,
       "assessmentEligibility": "not_eligible_until_rendered_and_reviewed",
       "accessibleNeutralLabelDe": "Abbildung",
-      "mustNotExposeInternalIdOrTargetLemma": true
+      "mustNotExposeInternalIdOrTargetLemma": true,
+      "revision121": "I-27: Zeichnung korrigiert."
     },
     {
       "id": "scene-object-schiff",

@@ -68,6 +68,13 @@
     return displayLemma(entry);
   }
 
+  /** Entry IDs of one category at one level. Hub and end-of-round summary both use this. */
+  function levelEntryIds(cat, level) {
+    if (!cat) return [];
+    const cov = cat.perLevelCoverage && level && cat.perLevelCoverage[level];
+    return (cov && cov.entryIds) || cat.entryIds || [];
+  }
+
   function availableLevels(current, manifest) {
     const fromCur = (current && current.availableLevels) || null;
     const fromMan = (manifest && manifest.availableLevels) || null;
@@ -135,6 +142,7 @@
       displayLemma: displayLemma,
       studyGrammarLine: studyGrammarLine,
       modeLabel: modeLabel,
+      levelEntryIds: levelEntryIds,
       levelLabel: function (code) {
         return levelLabel(code, current);
       },
@@ -175,6 +183,7 @@
     displayLemma: displayLemma,
     studyGrammarLine: studyGrammarLine,
     modeLabel: modeLabel,
+    levelEntryIds: levelEntryIds,
     getCache: function () {
       return cache;
     }

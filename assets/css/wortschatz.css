@@ -356,3 +356,19 @@ body.wz-body {
   .wz-door { transition: none; }
   .wz-door:hover { transform: none; }
 }
+
+/* 1.2.1: study card picture stays compact on tablets so "Weiter" and "Hilfe" stay visible */
+.wz-study .wz-scene {
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wz-study .wz-scene svg { max-height: 34vh; }
+/* 1.2.1: action buttons stay reachable at the bottom of the screen */
+.wz-actions {
+  position: sticky;
+  bottom: 0;
+  z-index: 5;
+  padding: 10px 0 12px;
+  background: linear-gradient(180deg, rgba(255, 253, 248, 0) 0%, rgba(255, 253, 248, 0.96) 30%);
+}

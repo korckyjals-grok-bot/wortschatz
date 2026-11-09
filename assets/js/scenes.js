@@ -241,15 +241,27 @@
       parts.push('<line x1="' + (bx + 20) + '" y1="' + (by - 25) + '" x2="' + (bx + bw + 20) + '" y2="' + (by - 25) + '" stroke="#2a3f66" stroke-width="3"/>');
       parts.push(disc(p.ballCenter[0], p.ballCenter[1], p.ballRadius, '#e4572e', '#7a2410'));
     } else if (id === 'scene-spatial-vor' || id === 'scene-spatial-hinter') {
+      // 1.2.1: same tree size in both scenes; only depth differs. "hinter": the tree stands
+      // farther back and is partly hidden by the house. "vor": the tree stands between the
+      // viewer and the front door and covers part of the wall.
       const [hx, hy, hw, hh] = p.houseRect;
+      const [tx, ty] = p.treeCenter;
+      const tBase = p.treeBaseY != null ? p.treeBaseY : ty + 22;
+      const tr = p.treeRadius || 26;
+      const treeSvg =
+        '<rect x="' + (tx - 5) + '" y="' + (ty + 10) + '" width="10" height="' + Math.max(10, tBase - ty - 10) + '" fill="#6b4226" stroke="#3e2614" stroke-width="1"/>' +
+        '<circle cx="' + tx + '" cy="' + ty + '" r="' + tr + '" fill="#2f8f3a" stroke="#1d5c25" stroke-width="2"/>' +
+        '<circle cx="' + (tx - tr / 3) + '" cy="' + (ty - tr / 4) + '" r="' + Math.round(tr / 3.5) + '" fill="#3fa84b"/>';
+      const behind = p.treeDrawOrder ? p.treeDrawOrder === 'behind_house' : id === 'scene-spatial-hinter';
+      parts.push('<rect x="0" y="' + (hy + hh - 6) + '" width="320" height="' + (250 - (hy + hh - 6)) + '" fill="#e3efd9"/>');
+      if (behind) parts.push(treeSvg);
       parts.push('<rect x="' + hx + '" y="' + hy + '" width="' + hw + '" height="' + hh + '" fill="#d9c2a0" stroke="#5a4630" stroke-width="2"/>');
       parts.push('<polygon points="' + hx + ',' + hy + ' ' + (hx + hw / 2) + ',' + (hy - 30) + ' ' + (hx + hw) + ',' + hy + '" fill="#b33a3a" stroke="#5a2020" stroke-width="2"/>');
       const [dx, dy] = p.doorCenter;
       parts.push('<rect x="' + (dx - 12) + '" y="' + (dy - 28) + '" width="24" height="28" fill="#6b4226"/>');
+      if (!behind) parts.push(treeSvg);
       const [vx, vy] = p.viewerAt;
       parts.push('<circle cx="' + vx + '" cy="' + (vy - 18) + '" r="8" fill="#f0c7a0"/><rect x="' + (vx - 10) + '" y="' + (vy - 10) + '" width="20" height="22" fill="#3d6ea8"/>');
-      const [tx, ty] = p.treeCenter;
-      parts.push('<rect x="' + (tx - 4) + '" y="' + ty + '" width="8" height="22" fill="#6b4226"/><circle cx="' + tx + '" cy="' + (ty - 8) + '" r="16" fill="#2f8f3a"/>');
     }
     return wrap(vb(p, [0, 0, 320, 250]), parts.join(''), contract.accessibleNeutralLabelDe);
   }
@@ -339,9 +351,10 @@
       // cut apple with core
       parts.push(
         '<g transform="translate(230,120)">' +
-          '<path d="M0,-40 C28,-35 32,10 0,42 C-8,20 -18,0 -10,-20 Z" fill="#f2c9a0" stroke="#8a4b2a" stroke-width="2"/>' +
-          '<ellipse cx="4" cy="0" rx="5" ry="10" fill="#5a3a1a"/>' +
-          '<circle cx="4" cy="-8" r="2" fill="#2a1a0a"/><circle cx="4" cy="8" r="2" fill="#2a1a0a"/>' +
+          '<path d="M0,-30 C12,-44 44,-40 44,-6 C44,26 22,44 0,38 C-22,44 -44,26 -44,-6 C-44,-40 -12,-44 0,-30 Z" fill="#fbf1d6" stroke="#c0392b" stroke-width="5"/>' +
+          '<path d="M0,-34 L2,-48" stroke="#5a3a1a" stroke-width="4" stroke-linecap="round"/>' +
+          '<path d="M0,-14 C10,-10 12,8 0,16 C-12,8 -10,-10 0,-14 Z" fill="none" stroke="#c9a15a" stroke-width="2"/>' +
+          '<ellipse cx="-4" cy="0" rx="2.5" ry="5" fill="#3a2410"/><ellipse cx="4" cy="0" rx="2.5" ry="5" fill="#3a2410"/>' +
           '</g>'
       );
     } else if (id === 'scene-object-heft') {
@@ -365,16 +378,25 @@
         parts.push('<ellipse cx="' + x + '" cy="' + y + '" rx="5" ry="2.5" fill="#f7f2e0" stroke="#b8a88a" stroke-width="0.8" transform="rotate(' + ((i * 17) % 40 - 20) + ' ' + x + ' ' + y + ')"/>');
       }
     } else if (id === 'scene-object-ziege') {
+      // 1.2.1 (I-10): goat with backward-curved horns, chin beard, cloven dark hooves,
+      // side ear, short upright tail.
+      const leg = (x) =>
+        '<rect x="' + x + '" y="158" width="10" height="42" rx="3" fill="#e9e2d0" stroke="#6b5e48" stroke-width="2"/>' +
+        '<path d="M' + (x - 1) + ',198 h12 v8 h-5 v-4 h-2 v4 h-5 Z" fill="#2b2b2b"/>';
       parts.push(
-        '<ellipse cx="160" cy="150" rx="55" ry="30" fill="#cfc3a8"/>' +
-          '<rect x="200" y="120" width="40" height="22" rx="10" fill="#cfc3a8"/>' +
-          '<polygon points="230,118 245,95 238,120" fill="#a89070"/>' +
-          '<polygon points="220,118 228,92 232,120" fill="#a89070"/>' +
-          '<rect x="238" y="138" width="4" height="10" fill="#8a7a62"/>' +
-          '<circle cx="245" cy="128" r="2" fill="#222"/>' +
-          '<rect x="125" y="175" width="8" height="28" fill="#8a7a62"/><rect x="180" y="175" width="8" height="28" fill="#8a7a62"/>' +
-          '<rect x="140" y="175" width="8" height="28" fill="#8a7a62"/><rect x="165" y="175" width="8" height="28" fill="#8a7a62"/>' +
-          '<path d="M110,155 Q90,170 105,180" fill="none" stroke="#8a7a62" stroke-width="4"/>'
+        '<rect x="0" y="206" width="320" height="34" fill="#e3efd9"/>' +
+          leg(98) + leg(116) + leg(178) + leg(196) +
+          '<path d="M92,128 L82,104 L96,118" fill="#e9e2d0" stroke="#6b5e48" stroke-width="2" stroke-linejoin="round"/>' +
+          '<ellipse cx="150" cy="140" rx="64" ry="30" fill="#f2ecdc" stroke="#6b5e48" stroke-width="2.5"/>' +
+          '<path d="M196,128 C206,112 214,98 222,90 L240,104 C230,116 220,132 212,146 Z" fill="#f2ecdc" stroke="#6b5e48" stroke-width="2.5" stroke-linejoin="round"/>' +
+          '<path d="M222,74 C238,70 254,78 266,96 C270,104 266,112 258,112 C248,112 236,106 226,100 C216,94 214,80 222,74 Z" fill="#f2ecdc" stroke="#6b5e48" stroke-width="2.5"/>' +
+          '<path d="M226,74 C222,56 208,44 194,46 C206,50 214,60 216,76 Z" fill="#9c8462" stroke="#5a4630" stroke-width="2"/>' +
+          '<path d="M234,72 C232,54 220,40 206,40 C218,46 226,58 226,74 Z" fill="#b39a74" stroke="#5a4630" stroke-width="2"/>' +
+          '<path d="M222,86 C210,90 200,98 196,104 C206,102 216,98 226,94 Z" fill="#e0d6bf" stroke="#6b5e48" stroke-width="2"/>' +
+          '<path d="M252,110 C254,122 250,134 244,140 C242,130 242,120 244,110 Z" fill="#cdbf9f" stroke="#6b5e48" stroke-width="2"/>' +
+          '<circle cx="244" cy="86" r="3.2" fill="#222"/>' +
+          '<ellipse cx="262" cy="100" rx="2" ry="1.5" fill="#5a4630"/>' +
+          '<path d="M250,106 Q256,110 262,106" fill="none" stroke="#5a4630" stroke-width="1.5"/>'
       );
     } else if (id === 'scene-object-ohr') {
       parts.push(
@@ -394,9 +416,11 @@
       );
     } else if (id === 'scene-object-regenschirm') {
       parts.push(
-        '<circle cx="160" cy="180" r="14" fill="#f0c7a0"/><rect x="148" y="190" width="24" height="30" fill="#3d6ea8"/>' +
-          '<line x1="160" y1="100" x2="160" y2="180" stroke="#444" stroke-width="4"/>' +
-          '<path d="M80,120 Q160,40 240,120 Z" fill="#2a6fdb" stroke="#1a3f8a" stroke-width="2"/>' +
+        '<circle cx="150" cy="172" r="14" fill="#f0c7a0"/><rect x="138" y="188" width="24" height="34" rx="4" fill="#3d6ea8"/>' +
+          '<line x1="182" y1="96" x2="182" y2="206" stroke="#444" stroke-width="4"/>' +
+          '<path d="M182,206 q0,10 -8,10 q-7,0 -7,-7" fill="none" stroke="#444" stroke-width="4"/>' +
+          '<line x1="160" y1="198" x2="182" y2="198" stroke="#3d6ea8" stroke-width="6" stroke-linecap="round"/>' +
+          '<path d="M90,120 Q182,30 274,120 Z" fill="#2a6fdb" stroke="#1a3f8a" stroke-width="2"/>' +
           '<line x1="90" y1="50" x2="85" y2="70" stroke="#4aa3ff" stroke-width="3"/>' +
           '<line x1="120" y1="40" x2="115" y2="60" stroke="#4aa3ff" stroke-width="3"/>' +
           '<line x1="200" y1="45" x2="205" y2="65" stroke="#4aa3ff" stroke-width="3"/>' +
@@ -408,10 +432,14 @@
         '<circle cx="95" cy="160" r="40" fill="none" stroke="#222" stroke-width="5"/>' +
           '<circle cx="230" cy="160" r="40" fill="none" stroke="#222" stroke-width="5"/>' +
           '<circle cx="95" cy="160" r="6" fill="#222"/><circle cx="230" cy="160" r="6" fill="#222"/>' +
-          '<path d="M95,160 L150,100 L210,160 L150,160 Z" fill="none" stroke="#2a6fdb" stroke-width="5"/>' +
-          '<line x1="150" y1="100" x2="150" y2="160" stroke="#2a6fdb" stroke-width="4"/>' +
-          '<line x1="150" y1="100" x2="120" y2="90" stroke="#222" stroke-width="4"/>' +
-          '<line x1="120" y1="90" x2="100" y2="90" stroke="#222" stroke-width="5"/>' +
+          // 1.2.1 (I-27): closed frame, fork to the front hub, saddle and handlebar
+          '<path d="M95,160 L150,160 L140,104 Z" fill="none" stroke="#2a6fdb" stroke-width="5" stroke-linejoin="round"/>' +
+          '<path d="M140,104 L208,108 L150,160" fill="none" stroke="#2a6fdb" stroke-width="5" stroke-linejoin="round"/>' +
+          '<line x1="208" y1="108" x2="230" y2="160" stroke="#2a6fdb" stroke-width="5"/>' +
+          '<line x1="140" y1="104" x2="136" y2="92" stroke="#222" stroke-width="4"/>' +
+          '<path d="M122,88 L150,88 Q152,94 146,95 L126,95 Q120,94 122,88 Z" fill="#222"/>' +
+          '<line x1="208" y1="108" x2="204" y2="86" stroke="#222" stroke-width="4"/>' +
+          '<line x1="194" y1="84" x2="218" y2="84" stroke="#222" stroke-width="5" stroke-linecap="round"/>' +
           '<circle cx="150" cy="160" r="10" fill="none" stroke="#444" stroke-width="3"/>' +
           '<line x1="150" y1="160" x2="135" y2="185" stroke="#444" stroke-width="3"/>' +
           '<line x1="150" y1="160" x2="165" y2="185" stroke="#444" stroke-width="3"/>' +
