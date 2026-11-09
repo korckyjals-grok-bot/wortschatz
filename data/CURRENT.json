@@ -1,6 +1,6 @@
 {
   "contractVersion": "1.1.0",
-  "contentVersion": "1.2.0-FCP",
+  "contentVersion": "1.2.1-FCP",
   "lexicon": "lexicon_FCP_202611081518.json",
   "questions": "questions_FCP_202611081518.json",
   "manifest": "category_manifest_FCP_202611081518.json",
@@ -22,7 +22,7 @@
     "P": "Schulbrücke"
   },
   "progressMigration": {
-    "toContentVersion": "1.2.0-FCP",
+    "toContentVersion": "1.2.1-FCP",
     "steps": [
       {
         "fromContentVersions": [
@@ -31,7 +31,8 @@
         "invalidateModes": [
           "context_to_meaning"
         ],
-        "reason": "1.0→1.1 word_to_situation repair of all F contextual items"
+        "reason": "1.0→1.1 word_to_situation repair of all F contextual items",
+        "introducedIn": "1.1.0-FC"
       },
       {
         "fromContentVersions": [
@@ -146,8 +147,27 @@
           "q-forschen-vermutung-noun-m1": "05a0f9ede19bfdc2",
           "q-forschen-vermutung-noun-c1": "ab1093027cc54589"
         },
-        "reason": "1.2 FCSemanticRepairs: 52 F/C question payloads changed; do not inherit mastery from pre-repair answers"
+        "reason": "1.2 FCSemanticRepairs: 52 F/C question payloads changed; do not inherit mastery from pre-repair answers",
+        "introducedIn": "1.2.0-FCP"
+      },
+      {
+        "introducedIn": "1.2.1-FCP",
+        "fromContentVersions": [
+          "1.0.0-F",
+          "1.1.0-FC",
+          "1.2.0-FCP"
+        ],
+        "invalidateModes": [],
+        "invalidateQuestionIds": [],
+        "dropRevisitArtifacts": true,
+        "reason": "1.2.1 QA audit: a missed question shown again in the same session no longer counts as first try; later-day review uses the local day; statuses recomputed. Text-only content fixes keep earlier answers."
       }
+    ],
+    "versionOrder": [
+      "1.0.0-F",
+      "1.1.0-FC",
+      "1.2.0-FCP",
+      "1.2.1-FCP"
     ]
   },
   "runtimeExtensionPolicy": {
@@ -157,5 +177,8 @@
     "preserveAndMergeExistingRuntimeExtensions": true,
     "notIncludedInAuthoredTextQuestionCount": true
   },
-  "releaseNote": "Runtime package 1.2.0-FCP. Not official school word list. Not A1 certification."
+  "releaseNote": "Runtime package 1.2.1-FCP. Not official school word list. Not A1 certification.",
+  "patchNotes": [
+    "1.2.1-FCP 2026-11-09: QA audit 202611090720 fixes (see changelog)."
+  ]
 }

@@ -57,7 +57,14 @@
         if (invalidate) drop.push(x);
         else keep.push(x);
       });
-      e.firstTryIndependent = keep;
+      let kept = keep;
+      if (step.dropRevisitArtifacts) {
+        const split = splitRevisitArtifacts(keep);
+        kept = split.keep;
+        split.drop.forEach((x) => drop.push(Object.assign({}, x, { revisitArtifact: true })));
+        if (split.drop.length) e.reviewStreak = Math.max(0, (e.reviewStreak || 0) - split.drop.length);
+      }
+      e.firstTryIndependent = kept;
       if (drop.length) {
         e.invalidatedContextSuccesses = (e.invalidatedContextSuccesses || []).concat(
           drop.map((x) =>
@@ -108,7 +115,12 @@
 
     store.meta = store.meta || {};
     store.meta.migrations = store.meta.migrations || [];
+    const order = (migration && migration.versionOrder) || [];
     steps.forEach((step) => {
+      // 1.2.1: a step is only for stores older than the version that introduced it.
+      const fromRank = from ? order.indexOf(from) : -1;
+      const introRank = step.introducedIn ? order.indexOf(step.introducedIn) : -1;
+      if (fromRank >= 0 && introRank >= 0 && fromRank >= introRank) return;
       // Apply step if store is still on an older version that the step lists,
       // or when jumping directly (from is in fromContentVersions OR from is null/older).
       const fromList = step.fromContentVersions || [];
@@ -116,7 +128,7 @@
         !from ||
         fromList.indexOf(from) >= 0 ||
         // direct jump: if coming from any earlier known version, still apply question-id invalidations
-        (from !== targetVersion && (step.invalidateQuestionIds || []).length > 0);
+        (from !== targetVersion && ((step.invalidateQuestionIds || []).length > 0 || !!step.dropRevisitArtifacts));
       if (!should) return;
       // For mode invalidation, only apply when from is listed (avoid wiping new context mastery on pure 1.1→1.2)
       const stepEff = Object.assign({}, step);
@@ -200,9 +212,31 @@
     return 'text:' + String(stim.textDe || '').slice(0, 120) + '|mode:' + question.mode + '|sem:' + sem;
   }
 
+  // Calendar day in the device's local time zone (1.2.1: was UTC, which split
+  // one El Salvador afternoon into two "days" at 18:00 local time).
   function dayStart(ts) {
     const d = new Date(ts);
-    return Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate());
+    return new Date(d.getFullYear(), d.getMonth(), d.getDate()).getTime();
+  }
+
+  // 1.2.1 migration helper: before 1.2.1 a missed question shown again in the same
+  // session was stored as a first try. Drop a correct record when the same question
+  // was answered wrong earlier on the same local day.
+  function splitRevisitArtifacts(records) {
+    const keep = [];
+    const drop = [];
+    const sorted = (records || []).slice().sort((a, b) => (a.ts || 0) - (b.ts || 0));
+    const wrongDays = {};
+    sorted.forEach((x) => {
+      const key = x.questionId + '|' + dayStart(x.ts || 0);
+      if (x.correct && !x.assisted && wrongDays[key]) {
+        drop.push(x);
+        return;
+      }
+      if (!x.correct) wrongDays[key] = true;
+      keep.push(x);
+    });
+    return { keep: keep, drop: drop };
   }
 
   function recordAttempt(opts) {
@@ -231,7 +265,7 @@
       m.assisted += 1;
     }
 
-    const firstTry = !!opts.firstTry;
+    const firstTry = !!opts.firstTry && !opts.revisit;
     const correct = !!opts.correct;
     const ck = opts.contextKey || (opts.questionId + ':' + mod);
 
@@ -289,7 +323,7 @@
     // Need ≥3 independent first-try successes across ≥2 different contexts/modes
     const enough = successes.length >= 3 && (contexts.size >= 2 || modes.size >= 2) && distinctContextsOrModes.size >= 2;
 
-    // Later-day review: a successful first-try on a different UTC day than the earliest success
+    // Later-day review: a successful first-try on a later local calendar day than the earliest success
     let laterDay = false;
     if (successes.length >= 2) {
       const days = successes.map((x) => dayStart(x.ts));
@@ -373,6 +407,8 @@
     now: now,
     contextKey: contextKey,
     recomputeStatus: recomputeStatus,
+    dayStart: dayStart,
+    splitRevisitArtifacts: splitRevisitArtifacts,
     migrateContentVersion: migrateContentVersion,
     KEY: KEY
   };

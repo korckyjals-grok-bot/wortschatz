@@ -130,6 +130,12 @@
       const c = textQs.find((q) => q.mode === 'context_to_meaning');
       if (c) questions.unshift({ kind: 'question', question: c, mode: c.mode });
     }
+    const seenQ = {};
+    questions = questions.filter((it) => {
+      if (seenQ[it.question.id]) return false;
+      seenQ[it.question.id] = true;
+      return true;
+    });
     questions = shuffle(questions).slice(0, 10);
 
     // Wrong revisit queue filled during play
@@ -144,7 +150,8 @@
       locked: false,
       helpOpen: false,
       assistedThisItem: false,
-      firstAttemptDone: false
+      firstAttemptDone: false,
+      answeredIds: {}
     };
   }
 
@@ -153,7 +160,7 @@
     const levelName = data.levelLabel(state.level);
     root.innerHTML =
       '<header class="wz-top">' +
-      '<a class="wz-back" href="index.html">← ' +
+      '<a class="wz-back" href="' + hubHref(state) + '">← ' +
       UI.backHub +
       '</a>' +
       '<div class="wz-top-main">' +
@@ -178,7 +185,16 @@
       .replace(/&/g, '&amp;')
       .replace(/</g, '&lt;')
       .replace(/>/g, '&gt;')
-      .replace(/"/g, '&quot;');
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
+  }
+
+  function levelEntryIds(data, state) {
+    return data.levelEntryIds ? data.levelEntryIds(state.cat, state.level) : (state.cat.entryIds || []);
+  }
+
+  function hubHref(state) {
+    return 'index.html?stufe=' + encodeURIComponent(state.level);
   }
 
   function updateProg(state) {
@@ -236,9 +252,9 @@
       '<p class="wz-def">' +
       escapeHtml(e.definitionDe) +
       '</p>' +
-      '<p class="wz-example">„' +
-      escapeHtml(e.exampleDe) +
-      '“</p>' +
+      '<p class="wz-example">' +
+      escapeHtml(/[„“]/.test(e.exampleDe || '') ? e.exampleDe : '„' + e.exampleDe + '“') +
+      '</p>' +
       makeSpeakBtn([data.displayLemma(e), e.definitionDe, e.exampleDe].join('. ')) +
       '</section>';
     // Study-only: never inject definition/example into later assessment stimulus
@@ -308,7 +324,10 @@
     state.locked = false;
     state.helpOpen = false;
     state.assistedThisItem = false;
-    state.firstAttemptDone = false;
+    state.answeredIds = state.answeredIds || {};
+    // 1.2.1: a missed question that comes back (revisit) or any question already answered
+    // in this round was seen with its solution -> it can never count as a first try.
+    state.firstAttemptDone = !!item.revisit || !!state.answeredIds[q.id];
     state._selected = null;
     state._itemCorrect = null;
 
@@ -499,6 +518,7 @@
         questionId: q.id,
         correct: correct,
         firstTry: firstTry,
+        revisit: !!item.revisit,
         assisted: state.assistedThisItem,
         contentVersion: data.current.contentVersion,
         migration: data.current.progressMigration,
@@ -506,6 +526,8 @@
         contextKey: WortschatzProgress.contextKey(q)
       });
 
+      state.answeredIds = state.answeredIds || {};
+      state.answeredIds[q.id] = true;
       state.answered.push({
         questionId: q.id,
         entryId: q.targetEntryId,
@@ -553,7 +575,7 @@
 
   function renderResults(state, data) {
     const store = WortschatzProgress.load();
-    const summary = WortschatzProgress.summarize(store, state.cat.entryIds || []);
+    const summary = WortschatzProgress.summarize(store, levelEntryIds(data, state));
     const indep = state.answered.filter((a) => a.correct && a.firstTry && !a.assisted).length;
     const assisted = state.answered.filter((a) => a.assisted).length;
     const wrong = state.answered.filter((a) => !a.correct).length;
@@ -574,7 +596,11 @@
       wrong +
       '</strong> noch üben</li>' +
       '</ul>' +
-      '<h3>In dieser Kategorie</h3>' +
+      '<h3>' +
+      UI.inThisLevel +
+      ' · ' +
+      escapeHtml(data.levelLabel(state.level)) +
+      '</h3>' +
       '<ul class="wz-stats">' +
       '<li>' +
       UI.sicher +
@@ -605,8 +631,12 @@
       encodeURIComponent(state.categoryId) +
       '&stufe=' +
       encodeURIComponent(state.level) +
-      '">Nochmal</a>' +
-      '<a class="wz-btn wz-btn-secondary" href="index.html">' +
+      '">' +
+      (UI.again || 'Nochmal') +
+      '</a>' +
+      '<a class="wz-btn wz-btn-secondary" href="' +
+      hubHref(state) +
+      '">' +
       UI.backHub +
       '</a>';
     updateProg(state);
@@ -618,7 +648,7 @@
     const level = params.get('stufe') || 'F';
     const demoFrage = params.get('demoFrage');
     if (!categoryId) {
-      root.innerHTML = '<p class="wz-error">Keine Kategorie. <a href="index.html">Zur Übersicht</a></p>';
+      root.innerHTML = '<p class="wz-error">Keine Kategorie. <a href="index.html">' + UI.backHub + '</a></p>';
       return;
     }
     root.innerHTML = '<p class="wz-loading">Laden…</p>';
@@ -667,7 +697,8 @@
         locked: false,
         helpOpen: false,
         assistedThisItem: false,
-        firstAttemptDone: false
+        firstAttemptDone: false,
+        answeredIds: {}
       };
     } else {
       state = createSession(data, categoryId, level);

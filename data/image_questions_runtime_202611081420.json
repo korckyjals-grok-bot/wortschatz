@@ -3231,7 +3231,7 @@
       "correctChoiceId": "choice-1",
       "explanationDe": "Eine runde ebene Form ohne Ecken. Mia zeichnet einen Kreis.",
       "helpEsLatam": {
-        "meaning": "círculo (forma redonda plana, no medida de longitud)",
+        "meaning": "círculo",
         "instruction": "Elige la palabra correcta.",
         "revealPolicy": "explicit_request_only",
         "marksAssisted": true
@@ -3252,7 +3252,8 @@
       ],
       "review": {
         "status": "runtime_scene_authored",
-        "sceneId": "scene-shape-kreis"
+        "sceneId": "scene-shape-kreis",
+        "lastEditorialPatch": "1.2.1-FCP QA-Audit 202611090720"
       },
       "runtimeGenerated": true
     },
@@ -3288,7 +3289,7 @@
       "correctChoiceId": "choice-1",
       "explanationDe": "Eine runde ebene Form ohne Ecken. Mia zeichnet einen Kreis.",
       "helpEsLatam": {
-        "meaning": "círculo (forma redonda plana, no medida de longitud)",
+        "meaning": "círculo",
         "instruction": "Elige la palabra correcta.",
         "revealPolicy": "explicit_request_only",
         "marksAssisted": true
@@ -3309,7 +3310,8 @@
       ],
       "review": {
         "status": "runtime_scene_authored",
-        "sceneId": "scene-shape-kreis"
+        "sceneId": "scene-shape-kreis",
+        "lastEditorialPatch": "1.2.1-FCP QA-Audit 202611090720"
       },
       "runtimeGenerated": true
     },
@@ -3447,8 +3449,8 @@
         },
         {
           "id": "choice-2",
-          "textDe": "das Rechteck",
-          "senseEntryId": "lex-geometrie-rechteck-noun"
+          "textDe": "der Kreis",
+          "senseEntryId": "lex-geometrie-kreis-noun"
         },
         {
           "id": "choice-3",
@@ -3480,7 +3482,8 @@
       ],
       "review": {
         "status": "runtime_scene_authored",
-        "sceneId": "scene-shape-quadrat"
+        "sceneId": "scene-shape-quadrat",
+        "lastEditorialPatch": "1.2.1-FCP QA-Audit 202611090720"
       },
       "runtimeGenerated": true
     },
@@ -3571,9 +3574,9 @@
         }
       ],
       "correctChoiceId": "choice-1",
-      "explanationDe": "Eine ebene Form mit vier rechten Winkeln. Die Karte ist ein Rechteck.",
+      "explanationDe": "Eine ebene Form mit vier Ecken von je 90 Grad, zum Beispiel ein Blatt Papier. Die Karte ist ein Rechteck.",
       "helpEsLatam": {
-        "meaning": "rectángulo (incluye cuadrados)",
+        "meaning": "rectángulo",
         "instruction": "Elige la palabra correcta.",
         "revealPolicy": "explicit_request_only",
         "marksAssisted": true
@@ -3594,7 +3597,8 @@
       ],
       "review": {
         "status": "runtime_scene_authored",
-        "sceneId": "scene-shape-rechteck"
+        "sceneId": "scene-shape-rechteck",
+        "lastEditorialPatch": "1.2.1-FCP QA-Audit 202611090720"
       },
       "runtimeGenerated": true
     },
@@ -3628,9 +3632,9 @@
         }
       ],
       "correctChoiceId": "choice-1",
-      "explanationDe": "Eine ebene Form mit vier rechten Winkeln. Die Karte ist ein Rechteck.",
+      "explanationDe": "Eine ebene Form mit vier Ecken von je 90 Grad, zum Beispiel ein Blatt Papier. Die Karte ist ein Rechteck.",
       "helpEsLatam": {
-        "meaning": "rectángulo (incluye cuadrados)",
+        "meaning": "rectángulo",
         "instruction": "Elige la palabra correcta.",
         "revealPolicy": "explicit_request_only",
         "marksAssisted": true
@@ -3651,7 +3655,8 @@
       ],
       "review": {
         "status": "runtime_scene_authored",
-        "sceneId": "scene-shape-rechteck"
+        "sceneId": "scene-shape-rechteck",
+        "lastEditorialPatch": "1.2.1-FCP QA-Audit 202611090720"
       },
       "runtimeGenerated": true
     },
@@ -5283,13 +5288,13 @@
         },
         {
           "id": "choice-2",
-          "textDe": "das Heft",
-          "senseEntryId": "lex-schule-heft-noun"
+          "textDe": "der Hund",
+          "senseEntryId": "lex-tiere-hund-noun"
         },
         {
           "id": "choice-3",
-          "textDe": "der Apfel",
-          "senseEntryId": "lex-essen-apfel-noun"
+          "textDe": "das Pferd",
+          "senseEntryId": "lex-tiere-pferd-noun"
         }
       ],
       "correctChoiceId": "choice-1",
@@ -5316,7 +5321,8 @@
       ],
       "review": {
         "status": "runtime_scene_authored",
-        "sceneId": "scene-object-ziege"
+        "sceneId": "scene-object-ziege",
+        "lastEditorialPatch": "1.2.1-FCP QA-Audit 202611090720"
       },
       "runtimeGenerated": true
     },
@@ -5947,5 +5953,6 @@
       },
       "runtimeGenerated": true
     }
-  ]
+  ],
+  "patchedForContentVersion": "1.2.1-FCP"
 }

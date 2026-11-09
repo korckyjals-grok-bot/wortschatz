@@ -91,7 +91,10 @@
     reset: 'Fortschritt löschen',
     resetConfirm: 'Wirklich allen Wortschatz-Fortschritt auf diesem Gerät löschen?',
     noVoice: 'Keine deutsche Stimme gefunden. Wir üben mit Text und Bild.',
-    draftBadge: 'Fundamente · Festigen · Schulbrücke'
+    draftBadge: 'Fundamente · Festigen · Schulbrücke',
+    backGerman: 'Deutsch',
+    inThisLevel: 'In dieser Kategorie',
+    again: 'Nochmal'
   };
 
   global.WortschatzConfig = {
